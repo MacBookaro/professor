@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionCloseWindow" xml:space="preserve">
+    <value>Cerrar esta ventana.</value>
+  </data>
+  <data name="ActionContinue" xml:space="preserve">
+    <value>Volver adonde me encontraba trabajando.</value>
+  </data>
+  <data name="ActionCreate" xml:space="preserve">
+    <value>Crear un registro nuevo.</value>
+  </data>
+  <data name="ActionDefault" xml:space="preserve">
+    <value>Volver a la vista de los registros.</value>
+  </data>
+  <data name="ActionHome" xml:space="preserve">
+    <value>Ir al inicio.</value>
+  </data>
+  <data name="ActionMessageError" xml:space="preserve">
+    <value>Ha ocurrido un error al ejecutar la operación.</value>
+  </data>
+  <data name="ActionMessageOk" xml:space="preserve">
+    <value>Operación completada satisfactoriamente.</value>
+  </data>
+  <data name="ActionTitle" xml:space="preserve">
+    <value>Resultado de la operación:</value>
+  </data>
+  <data name="ActionTryAgain" xml:space="preserve">
+    <value>Intentar nuevamente.</value>
+  </data>
+  <data name="ActionUserDefined" xml:space="preserve">
+    <value>Ir a la URL...</value>
+  </data>
+  <data name="ActionView" xml:space="preserve">
+    <value>Ver información detallada del registro.</value>
+  </data>
+  <data name="ApplicationAccessNotAllowed" xml:space="preserve">
+    <value>No tiene permisos para acceder esta página.</value>
+  </data>
+  <data name="ApplicationError403" xml:space="preserve">
+    <value>Usted no tiene los permisos suficientes para acceder esta página.</value>
+  </data>
+  <data name="ApplicationError404" xml:space="preserve">
+    <value>La página que ha solicitado no se ha podido encontrar.</value>
+  </data>
+  <data name="ApplicationError408" xml:space="preserve">
+    <value>El tiempo de espera de la solicitud a finalizado.</value>
+  </data>
+  <data name="ApplicationError500" xml:space="preserve">
+    <value>El servidor no puede completar su solicitud en este momento.</value>
+  </data>
+  <data name="ApplicationError503" xml:space="preserve">
+    <value>El servidor esta experimentando un alto tráfico de información.</value>
+  </data>
+  <data name="ApplicationErrorContact" xml:space="preserve">
+    <value>Por favor contacte al administrador del sistema.</value>
+  </data>
+  <data name="ApplicationErrorDescription" xml:space="preserve">
+    <value>Se ha generado un error en la aplicación, el cual ha sido registrado detalladamente. Una notificación al respecto ha sido enviada al administrador del sistema para realizar el seguimiento pertinente y tomar acciones correctivas de ser necesario. Lamentamos los inconvenientes que se hayan podido presentar.</value>
+  </data>
+  <data name="ApplicationErrorUnexpected" xml:space="preserve">
+    <value>Ha ocurrido un error inesperado.</value>
+  </data>
+  <data name="ApplicationErrorUnknown" xml:space="preserve">
+    <value>Ha ocurrido un error en el servidor.</value>
+  </data>
+  <data name="AppUserAccountExits" xml:space="preserve">
+    <value>La cuenta de usuario ya ha sido creada.</value>
+  </data>
+  <data name="AppUserAccountPending" xml:space="preserve">
+    <value>La cuenta de usuario no ha sido creada.</value>
+  </data>
+  <data name="AppUserEmailPending" xml:space="preserve">
+    <value>La cuenta de correo electrónico no ha sido verificada.</value>
+  </data>
+  <data name="AppUserEmailVerified" xml:space="preserve">
+    <value>La cuenta de correo electrónico ha sido verificada correctamente.</value>
+  </data>
+  <data name="ClickHereToView" xml:space="preserve">
+    <value>Ver información</value>
+  </data>
+  <data name="ConfirmMessage" xml:space="preserve">
+    <value>El registro ha sido modificado por fuera de este formulario, posiblemente por otro usuario.</value>
+  </data>
+  <data name="ConfirmMessageDoNothing" xml:space="preserve">
+    <value>No hacer los cambios y permitir verificar la información</value>
+  </data>
+  <data name="ConfirmMessageReload" xml:space="preserve">
+    <value>Cargar de nuevo la información del registro</value>
+  </data>
+  <data name="DeleteConfirmMessage" xml:space="preserve">
+    <value>Al realizar esta operación todos los demás elementos relacionados con este registro podrían ser eliminados automáticamente.\n\nEstá seguro que desea borrar este registro?</value>
+  </data>
+  <data name="EmailNotAllowed" xml:space="preserve">
+    <value>El correo electrónico ya existe.</value>
+  </data>
+  <data name="FilterOptionExternal" xml:space="preserve">
+    <value>Se ha aplicado una opción de filtrado no disponible en las opciones predeterminadas de filtrado del formulario.</value>
+  </data>
+  <data name="InvalidInformation" xml:space="preserve">
+    <value>No se pudo verificar esta información correctamente. Inténtelo nuevamente.</value>
+  </data>
+  <data name="InvalidParamsParamExpected" xml:space="preserve">
+    <value>Se esperaba el parámetro [ UNKNOWN ].</value>
+  </data>
+  <data name="InvalidParamsRecordNotFound" xml:space="preserve">
+    <value>Registro no encontrado.</value>
+  </data>
+  <data name="InvalidParamsUnknownError" xml:space="preserve">
+    <value>Error no definido!!!!!</value>
+  </data>
+  <data name="PasswordChanged" xml:space="preserve">
+    <value>La contraseña ha sido cambiada satisfactoriamente.</value>
+  </data>
+  <data name="PasswordInvalid" xml:space="preserve">
+    <value>Contraseña incorrecta.</value>
+  </data>
+  <data name="PasswordMismatch" xml:space="preserve">
+    <value>Las contraseñas nuevas no coinciden.</value>
+  </data>
+  <data name="PasswordResetMailSent" xml:space="preserve">
+    <value>Se ha enviado al correo electrónico información de recuperación de contraseña.</value>
+  </data>
+  <data name="RelatedInformationNotAvailable" xml:space="preserve">
+    <value>No hay información relacionada para este elemento.</value>
+  </data>
+  <data name="SignInAppNotAvailable" xml:space="preserve">
+    <value>En este momento estamos trabajando en esta aplicación. Discúlpenos por el inconveniente.</value>
+  </data>
+  <data name="SignInAppNotFound" xml:space="preserve">
+    <value>No se encontró la aplicación. Por favor contacte al administrador.</value>
+  </data>
+  <data name="SignInErrorValidating" xml:space="preserve">
+    <value>Por favor verifique su información e inténtelo nuevamente.</value>
+  </data>
+  <data name="SignInUnknownError" xml:space="preserve">
+    <value>Ha ocurrido un error inesperado. Por favor contacte al administrador.</value>
+  </data>
+  <data name="SignOutConfirm" xml:space="preserve">
+    <value>Ha finalizado su sesión.</value>
+  </data>
+  <data name="UserNameAvailable" xml:space="preserve">
+    <value>El nombre de usuario está disponible.</value>
+  </data>
+  <data name="UserNameNotAvailable" xml:space="preserve">
+    <value>El nombre de usuario no está disponible.</value>
+  </data>
+  <data name="UserNameRequired" xml:space="preserve">
+    <value>Es necesario el nombre de usuario para realizar la verificación.</value>
+  </data>
+  <data name="ValidInformation" xml:space="preserve">
+    <value>La información fue verificada correctamente.</value>
+  </data>
+  <data name="ClosedConfirmMessage" xml:space="preserve">
+    <value>Al realizar esta operación no se podran adicionar mas vehiculos para este proceso de creación de T.O por Lotes.\n\n Desea Continuar ?</value>
+  </data>
+  <data name="SaveConfirmMessage" xml:space="preserve">
+    <value>Inscripción Guardada Exitosamente !</value>
+  </data>
+</root>

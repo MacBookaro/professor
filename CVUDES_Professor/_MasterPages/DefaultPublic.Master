@@ -1,0 +1,66 @@
+<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="DefaultPublic.Master.vb" Inherits="CVUDES_Professor.DefaultPublicMaster" %>
+<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
+
+<%@ Register Src="~/_AppControls/HeaderPublic.ascx" TagName="_HeaderPublic" TagPrefix="uc1" %>
+<%@ Register Src="~/_AppControls/Footer.ascx" TagName="_Footer" TagPrefix="uc2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="objHead" runat="server">
+    <title>Page Title</title>
+    <script type="text/javascript" src="/_Resources/Js/Common.js"></script>
+    <link href="../_Resources/Css/CVUDES.css" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 6]>
+        <link rel="stylesheet" type="text/css" href="/_Resources/Css/IE6Hack.css" />
+    <![endif]-->
+    <!--[if lt IE 8]>
+        <link rel="stylesheet" type="text/css" href="/_Resources/Css/IE7Hack.css" />
+    <![endif]-->
+</head>
+<body onload="hideLoading()">
+    <asp:Literal ID="litScript" runat="server"></asp:Literal>
+    <div id="divContent">
+        <script type="text/javascript">
+            showLoading();
+        </script>
+        <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <div style="text-align: center; width: auto;">
+            <div style="width: 1030px;">
+                &nbsp;
+            </div>
+            <div class="HeaderBox" style="text-align: left;">
+                <uc1:_HeaderPublic ID="_HeaderPublic1" runat="server" />
+                <div class="FormTop" style="">
+                    <div class="FormTopLeft">
+                    </div>
+                    <div class="FormTopRight">
+                    </div>
+                </div>
+            </div>
+            <div id="WrapperRight">
+                <div id="WrapperLeft">
+                    <div id="MainCol">
+                        <div id="CenterCol">
+                            <asp:ContentPlaceHolder ID="phMainBody" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="FooterBox">
+                <div class="FormBottom" style="display: block;">
+                    <div class="FormBottomLeft">
+                    </div>
+                    <div class="FormBottomRight">
+                    </div>
+                </div>
+                <uc2:_Footer ID="Footer1" runat="server" />
+            </div>
+        </div>
+        <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" EnablePageHeadUpdate="False" RequestQueueSize="1" UpdatePanelsRenderMode="Inline" ClientEvents-OnRequestStart="showProcessing();" ClientEvents-OnResponseEnd="hideProcessing();">
+        </telerik:RadAjaxManager>
+        </form>
+    </div>
+</body>
+</html>

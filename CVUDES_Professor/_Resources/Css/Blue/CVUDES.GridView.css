@@ -1,0 +1,144 @@
+﻿.GridViewInfo
+{
+	margin-bottom: 2px;
+	padding-left: 3px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	border-bottom: solid 1px #C8C8C8;
+}
+
+.GridViewInfo td
+{
+	color: #505050;
+}
+
+.GridViewInfo .OrderBy
+{
+	text-align: right;
+	width: 90px;
+	padding-right: 5px;
+}
+
+.GridViewInfo .OrderFields
+{
+	text-align: right;
+	width: 180px;
+}
+
+.GridViewInfo .OrderDirections
+{
+	text-align: right;
+	width: 60px;
+}
+
+.GridViewInfo .OrderButton
+{
+	width: 105px;
+	text-align: right;
+}
+
+.GridView td
+{
+	padding-top: 3px;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #E0E0E0;
+	color: #505050;
+}
+
+.GridView th
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #C8C8C8;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.GridView img
+{
+	height: 16px;
+	width: 16px;
+}
+
+.GridViewEmptyMessage
+{
+	color: Red;
+	padding: 8px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.FilterDescription
+{
+	padding-left: 3px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin: 0 auto;
+}
+
+.FilterDescription td
+{
+	color: #505050;
+}
+
+.FilterDescription b
+{
+	color: #505050;
+}
+
+.FilterChoices
+{
+}
+
+.FilterChoices th
+{
+	padding-left: 3px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 4px;
+	text-align: left;
+	font-size: 11px;
+	border-bottom: 1px solid #C8C8C8;
+}
+
+.FilterChoicesContent
+{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding: 1px;
+}
+
+.FilterChoicesContent th
+{
+	width: 118px;
+	text-align: right;
+	border: none;
+	font-weight: normal;
+}
+
+.FilterChoicesContent td
+{
+	width: 280px;
+}
+
+.FilterChoicesButtons
+{
+	margin-bottom: 4px;
+}
+
+.FilterChoicesButtons th
+{
+	width: 128px;
+}
+
+.FilterChoicesButtons td
+{
+	padding-top: 3px;
+	padding-bottom: 2px;
+	vertical-align: text-bottom;
+}
+
+.GridCol_Centered
+{
+	text-align: center;
+}

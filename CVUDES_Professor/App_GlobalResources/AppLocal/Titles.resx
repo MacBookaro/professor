@@ -1,0 +1,1008 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivationsQuickViewTitle" xml:space="preserve">
+    <value>Información de la activación programada</value>
+  </data>
+  <data name="ActivationsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada de la activación programada</value>
+  </data>
+  <data name="ActivationsTitle" xml:space="preserve">
+    <value>ACTIVACIONES PROGRAMADAS</value>
+  </data>
+  <data name="ActivationsTitle2" xml:space="preserve">
+    <value>Administración de activaciones programadas</value>
+  </data>
+  <data name="ActivationsTitle3" xml:space="preserve">
+    <value>Información de la activación programada</value>
+  </data>
+  <data name="ActivationsTitleCreate" xml:space="preserve">
+    <value>Crear programación de activación</value>
+  </data>
+  <data name="ActivationsTitleDelete" xml:space="preserve">
+    <value>Borrar programación de activación</value>
+  </data>
+  <data name="ActivationsTitleEdit" xml:space="preserve">
+    <value>Editar programación de activación</value>
+  </data>
+  <data name="ActivationsTitleSearch" xml:space="preserve">
+    <value>Buscar programación de activación</value>
+  </data>
+  <data name="EBookDocumentsQuickViewTitle" xml:space="preserve">
+    <value>Información del documento anexo</value>
+  </data>
+  <data name="EBookDocumentsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del documento anexo</value>
+  </data>
+  <data name="EBookDocumentsTitle" xml:space="preserve">
+    <value>DOCUMENTOS ANEXOS</value>
+  </data>
+  <data name="EBookDocumentsTitle2" xml:space="preserve">
+    <value>Administración de documentos anexos</value>
+  </data>
+  <data name="EBookDocumentsTitle3" xml:space="preserve">
+    <value>Información del documento anexo</value>
+  </data>
+  <data name="EBookDocumentsTitleCreate" xml:space="preserve">
+    <value>Crear documento anexo</value>
+  </data>
+  <data name="EBookDocumentsTitleDelete" xml:space="preserve">
+    <value>Borrar documento anexo</value>
+  </data>
+  <data name="EBookDocumentsTitleEdit" xml:space="preserve">
+    <value>Editar documento anexo</value>
+  </data>
+  <data name="EBookDocumentsTitleSearch" xml:space="preserve">
+    <value>Buscar documentos anexos</value>
+  </data>
+  <data name="EBookLinksQuickViewTitle" xml:space="preserve">
+    <value>Información del link temático</value>
+  </data>
+  <data name="EBookLinksQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del link temático</value>
+  </data>
+  <data name="EBookLinksTitle" xml:space="preserve">
+    <value>LINKS TEMATICOS</value>
+  </data>
+  <data name="EBookLinksTitle2" xml:space="preserve">
+    <value>Administración de links tematicos</value>
+  </data>
+  <data name="EBookLinksTitle3" xml:space="preserve">
+    <value>Información del link tematico</value>
+  </data>
+  <data name="EBookLinksTitleCreate" xml:space="preserve">
+    <value>Crear link tematico</value>
+  </data>
+  <data name="EBookLinksTitleDelete" xml:space="preserve">
+    <value>Borrar link tematico</value>
+  </data>
+  <data name="EBookLinksTitleEdit" xml:space="preserve">
+    <value>Editar link tematico</value>
+  </data>
+  <data name="EBookLinksTitleSearch" xml:space="preserve">
+    <value>Buscar links temáticos</value>
+  </data>
+  <data name="EBooksQuickViewTitle" xml:space="preserve">
+    <value>Información del libro electrónico</value>
+  </data>
+  <data name="EBooksQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del libro electrónico</value>
+  </data>
+  <data name="EBooksTitle" xml:space="preserve">
+    <value>LIBROS ELECTRONICOS</value>
+  </data>
+  <data name="EBooksTitle2" xml:space="preserve">
+    <value>Administración de libros electronicos</value>
+  </data>
+  <data name="EBooksTitle3" xml:space="preserve">
+    <value>Información del libro electronico</value>
+  </data>
+  <data name="EBooksTitleCreate" xml:space="preserve">
+    <value>Crear libro electronico</value>
+  </data>
+  <data name="EBooksTitleDelete" xml:space="preserve">
+    <value>Borrar libro electronico</value>
+  </data>
+  <data name="EBooksTitleEdit" xml:space="preserve">
+    <value>Editar libro electronico</value>
+  </data>
+  <data name="EBooksTitleSearch" xml:space="preserve">
+    <value>Buscar libros electrónicos</value>
+  </data>
+  <data name="EnrolledProfessorsTitle" xml:space="preserve">
+    <value>ASIGNACION DE PROFESORES</value>
+  </data>
+  <data name="EnrolledProfessorsTitle2" xml:space="preserve">
+    <value>Información de asignación de profesores</value>
+  </data>
+  <data name="EnrolledProgramsTitle" xml:space="preserve">
+    <value>PROGRAMAS MATRICULADOS</value>
+  </data>
+  <data name="EnrolledProgramsTitle2" xml:space="preserve">
+    <value>Información de programas matriculados</value>
+  </data>
+  <data name="EnrolledSubjectsTitle" xml:space="preserve">
+    <value>MODULOS MATRICULADOS</value>
+  </data>
+  <data name="EnrolledSubjectsTitle2" xml:space="preserve">
+    <value>Información de modulos matriculados</value>
+  </data>
+  <data name="EnrolledTutorsTitle" xml:space="preserve">
+    <value>ASIGNACION DE TUTORES</value>
+  </data>
+  <data name="EnrolledTutorsTitle2" xml:space="preserve">
+    <value>Información de asignación de tutores</value>
+  </data>
+  <data name="EnrollmentsQuickViewTitle" xml:space="preserve">
+    <value>Información de matrícula</value>
+  </data>
+  <data name="EnrollmentsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada de matrícula</value>
+  </data>
+  <data name="EnrollmentsTitle" xml:space="preserve">
+    <value>MATRICULAS</value>
+  </data>
+  <data name="EnrollmentsTitle2" xml:space="preserve">
+    <value>Administración de matrículas</value>
+  </data>
+  <data name="EnrollmentsTitle3" xml:space="preserve">
+    <value>Información de matrícula</value>
+  </data>
+  <data name="EnrollmentsTitleCreate" xml:space="preserve">
+    <value>Crear matrícula</value>
+  </data>
+  <data name="EnrollmentsTitleDelete" xml:space="preserve">
+    <value>Borrar matrícula</value>
+  </data>
+  <data name="EnrollmentsTitleEdit" xml:space="preserve">
+    <value>Editar matrícula</value>
+  </data>
+  <data name="GroupSchedulesQuickViewTitle" xml:space="preserve">
+    <value>Información de programación de grupos</value>
+  </data>
+  <data name="GroupSchedulesQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada de la programación de grupo</value>
+  </data>
+  <data name="GroupSchedulesTitle" xml:space="preserve">
+    <value>PROGRAMACIONES DE GRUPOS</value>
+  </data>
+  <data name="GroupSchedulesTitle2" xml:space="preserve">
+    <value>Administración de programaciones de grupos</value>
+  </data>
+  <data name="GroupSchedulesTitle3" xml:space="preserve">
+    <value>Información de la programación de grupo</value>
+  </data>
+  <data name="GroupSchedulesTitleCreate" xml:space="preserve">
+    <value>Crear programación</value>
+  </data>
+  <data name="GroupSchedulesTitleDelete" xml:space="preserve">
+    <value>Borrar programación</value>
+  </data>
+  <data name="GroupSchedulesTitleEdit" xml:space="preserve">
+    <value>Editar programación</value>
+  </data>
+  <data name="GroupSchedulesTitleSearch" xml:space="preserve">
+    <value>Buscar programación</value>
+  </data>
+  <data name="GroupsQuickViewTitle" xml:space="preserve">
+    <value>Información del grupo</value>
+  </data>
+  <data name="GroupsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del grupo</value>
+  </data>
+  <data name="GroupsTitle" xml:space="preserve">
+    <value>GRUPOS</value>
+  </data>
+  <data name="GroupsTitle2" xml:space="preserve">
+    <value>Administración de grupos</value>
+  </data>
+  <data name="GroupsTitle3" xml:space="preserve">
+    <value>Información del grupo</value>
+  </data>
+  <data name="GroupsTitleCreate" xml:space="preserve">
+    <value>Crear grupo</value>
+  </data>
+  <data name="GroupsTitleDelete" xml:space="preserve">
+    <value>Borrar grupo</value>
+  </data>
+  <data name="GroupsTitleEdit" xml:space="preserve">
+    <value>Editar grupo</value>
+  </data>
+  <data name="GroupsTitleSearch" xml:space="preserve">
+    <value>Buscar grupos</value>
+  </data>
+  <data name="LearningScheduleDaysQuickViewTitle" xml:space="preserve">
+    <value>Información del día de la agenda de avance</value>
+  </data>
+  <data name="LearningScheduleDaysQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del día de la agenda de avance</value>
+  </data>
+  <data name="LearningScheduleDaysTitle" xml:space="preserve">
+    <value>DIAS DE LA AGENDA DE AVANCE</value>
+  </data>
+  <data name="LearningScheduleDaysTitle2" xml:space="preserve">
+    <value>Administración de días de la agenda de avance</value>
+  </data>
+  <data name="LearningScheduleDaysTitle3" xml:space="preserve">
+    <value>Información de días de la agenda de avance</value>
+  </data>
+  <data name="LearningScheduleDaysTitleCreate" xml:space="preserve">
+    <value>Crear día de la agenda de avance</value>
+  </data>
+  <data name="LearningScheduleDaysTitleDelete" xml:space="preserve">
+    <value>Borrar día de la agenda de avance</value>
+  </data>
+  <data name="LearningScheduleDaysTitleEdit" xml:space="preserve">
+    <value>Editar día de la agenda de avance</value>
+  </data>
+  <data name="LearningScheduleDaysTitleSearch" xml:space="preserve">
+    <value>Buscar día de la agenda de avance</value>
+  </data>
+  <data name="LearningSchedulesQuickViewTitle" xml:space="preserve">
+    <value>Información de la agenda de avance</value>
+  </data>
+  <data name="LearningSchedulesQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada de la agenda de avance</value>
+  </data>
+  <data name="LearningSchedulesTitle" xml:space="preserve">
+    <value>AGENDAS DE AVANCE</value>
+  </data>
+  <data name="LearningSchedulesTitle2" xml:space="preserve">
+    <value>Administración de agendas de avance</value>
+  </data>
+  <data name="LearningSchedulesTitle3" xml:space="preserve">
+    <value>Información de agenda de avance</value>
+  </data>
+  <data name="LearningSchedulesTitleCreate" xml:space="preserve">
+    <value>Crear agenda de avance</value>
+  </data>
+  <data name="LearningSchedulesTitleDelete" xml:space="preserve">
+    <value>Borrar agenda de avance</value>
+  </data>
+  <data name="LearningSchedulesTitleEdit" xml:space="preserve">
+    <value>Editar agenda de avance</value>
+  </data>
+  <data name="LearningSchedulesTitleSearch" xml:space="preserve">
+    <value>Buscar agendas de avance</value>
+  </data>
+  <data name="OrderItemsTitle" xml:space="preserve">
+    <value>MODULOS DE LA ORDEN DE COMPRA</value>
+  </data>
+  <data name="OrderItemsTitleCreate" xml:space="preserve">
+    <value>Agregar módulo a la órden de compra</value>
+  </data>
+  <data name="OrderItemsTitleEdit" xml:space="preserve">
+    <value>Editar módulo de la órden de compra</value>
+  </data>
+  <data name="OrdersQuickViewTitle" xml:space="preserve">
+    <value>Información de la orden de compra</value>
+  </data>
+  <data name="OrdersQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada de la orden de compra</value>
+  </data>
+  <data name="OrdersTitle" xml:space="preserve">
+    <value>ORDENES DE COMPRA</value>
+  </data>
+  <data name="OrdersTitle2" xml:space="preserve">
+    <value>Administración de ordenes de compra</value>
+  </data>
+  <data name="OrdersTitle3" xml:space="preserve">
+    <value>Información de la orden de compra</value>
+  </data>
+  <data name="OrdersTitleCreate" xml:space="preserve">
+    <value>Crear orden de compra</value>
+  </data>
+  <data name="OrdersTitleDelete" xml:space="preserve">
+    <value>Borrar orden de compra</value>
+  </data>
+  <data name="OrdersTitleEdit" xml:space="preserve">
+    <value>Editar orden de compra</value>
+  </data>
+  <data name="OrdersTitleSearch" xml:space="preserve">
+    <value>Buscar ordenes de compra</value>
+  </data>
+  <data name="ProfessorsQuickViewTitle" xml:space="preserve">
+    <value>Información del profesor</value>
+  </data>
+  <data name="ProfessorsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del profesor</value>
+  </data>
+  <data name="ProfessorsTitle" xml:space="preserve">
+    <value>PROFESORES</value>
+  </data>
+  <data name="ProfessorsTitle2" xml:space="preserve">
+    <value>Administración de profesores</value>
+  </data>
+  <data name="ProfessorsTitle3" xml:space="preserve">
+    <value>Información del profesor</value>
+  </data>
+  <data name="ProfessorsTitleCreate" xml:space="preserve">
+    <value>Crear profesor</value>
+  </data>
+  <data name="ProfessorsTitleDelete" xml:space="preserve">
+    <value>Borrar profesor</value>
+  </data>
+  <data name="ProfessorsTitleEdit" xml:space="preserve">
+    <value>Editar profesor</value>
+  </data>
+  <data name="ProfessorsTitleSearch" xml:space="preserve">
+    <value>Buscar profesor</value>
+  </data>
+  <data name="ProgramCategoriesQuickViewTitle" xml:space="preserve">
+    <value>Información de la categoría</value>
+  </data>
+  <data name="ProgramCategoriesQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada de la categoría</value>
+  </data>
+  <data name="ProgramCategoriesTitle" xml:space="preserve">
+    <value>CATEGORIAS</value>
+  </data>
+  <data name="ProgramCategoriesTitle2" xml:space="preserve">
+    <value>Administración de categorías</value>
+  </data>
+  <data name="ProgramCategoriesTitle3" xml:space="preserve">
+    <value>Información de la categoría</value>
+  </data>
+  <data name="ProgramCategoriesTitleCreate" xml:space="preserve">
+    <value>Crear categoría</value>
+  </data>
+  <data name="ProgramCategoriesTitleDelete" xml:space="preserve">
+    <value>Borrar categoría</value>
+  </data>
+  <data name="ProgramCategoriesTitleEdit" xml:space="preserve">
+    <value>Editar categoría</value>
+  </data>
+  <data name="ProgramCategoriesTitleSearch" xml:space="preserve">
+    <value>Buscar categorías</value>
+  </data>
+  <data name="ProgramsQuickViewTitle" xml:space="preserve">
+    <value>Información del programa</value>
+  </data>
+  <data name="ProgramsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del programa</value>
+  </data>
+  <data name="ProgramsTitle" xml:space="preserve">
+    <value>PROGRAMAS</value>
+  </data>
+  <data name="ProgramsTitle2" xml:space="preserve">
+    <value>Administración de programas</value>
+  </data>
+  <data name="ProgramsTitle3" xml:space="preserve">
+    <value>Información del programa</value>
+  </data>
+  <data name="ProgramsTitleCreate" xml:space="preserve">
+    <value>Crear programa</value>
+  </data>
+  <data name="ProgramsTitleDelete" xml:space="preserve">
+    <value>Borrar programa</value>
+  </data>
+  <data name="ProgramsTitleEdit" xml:space="preserve">
+    <value>Editar programa</value>
+  </data>
+  <data name="ProgramsTitleSearch" xml:space="preserve">
+    <value>Buscar programas</value>
+  </data>
+  <data name="RegistrationsQuickViewTitle" xml:space="preserve">
+    <value>Información de la inscripción</value>
+  </data>
+  <data name="RegistrationsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada de la inscripción</value>
+  </data>
+  <data name="RegistrationsTitle" xml:space="preserve">
+    <value>INSCRIPCIONES</value>
+  </data>
+  <data name="RegistrationsTitle2" xml:space="preserve">
+    <value>Administración de inscripciones</value>
+  </data>
+  <data name="RegistrationsTitle3" xml:space="preserve">
+    <value>Información de la inscripción</value>
+  </data>
+  <data name="RegistrationsTitleCreate" xml:space="preserve">
+    <value>Crear inscripción</value>
+  </data>
+  <data name="RegistrationsTitleDelete" xml:space="preserve">
+    <value>Borrar inscripción</value>
+  </data>
+  <data name="RegistrationsTitleEdit" xml:space="preserve">
+    <value>Editar inscripción</value>
+  </data>
+  <data name="RegistrationsTitleSearch" xml:space="preserve">
+    <value>Buscar inscripciones</value>
+  </data>
+  <data name="StudentsQuickViewTitle" xml:space="preserve">
+    <value>Información del estudiante</value>
+  </data>
+  <data name="StudentsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del estudiante</value>
+  </data>
+  <data name="StudentsTitle" xml:space="preserve">
+    <value>ESTUDIANTES</value>
+  </data>
+  <data name="StudentsTitle2" xml:space="preserve">
+    <value>Administración de estudiantes</value>
+  </data>
+  <data name="StudentsTitle3" xml:space="preserve">
+    <value>Información del estudiante</value>
+  </data>
+  <data name="StudentsTitleCreate" xml:space="preserve">
+    <value>Crear estudiantes</value>
+  </data>
+  <data name="StudentsTitleDelete" xml:space="preserve">
+    <value>Borrar estudiantes</value>
+  </data>
+  <data name="StudentsTitleEdit" xml:space="preserve">
+    <value>Editar estudiantes</value>
+  </data>
+  <data name="StudentsTitleSearch" xml:space="preserve">
+    <value>Buscar estudiantes</value>
+  </data>
+  <data name="StudentSubjectOrdersTitleSearch" xml:space="preserve">
+    <value>Buscar ordenes de compra</value>
+  </data>
+  <data name="StudentSubjectsQuickViewTitle" xml:space="preserve">
+    <value>Información de módulos matriculados</value>
+  </data>
+  <data name="StudentSubjectsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del módulo matriculado</value>
+  </data>
+  <data name="StudentSubjectsTitle" xml:space="preserve">
+    <value>MODULOS MATRICULADOS</value>
+  </data>
+  <data name="StudentSubjectsTitle2" xml:space="preserve">
+    <value>Administración de modulos matriculados</value>
+  </data>
+  <data name="StudentSubjectsTitle3" xml:space="preserve">
+    <value>Información de modulos matriculados</value>
+  </data>
+  <data name="StudentSubjectsTitleCreate" xml:space="preserve">
+    <value>Crear titulo</value>
+  </data>
+  <data name="StudentSubjectsTitleDelete" xml:space="preserve">
+    <value>Borrar titulo</value>
+  </data>
+  <data name="StudentSubjectsTitleEdit" xml:space="preserve">
+    <value>Editar titulo</value>
+  </data>
+  <data name="StudentSubjectsTitleSearch" xml:space="preserve">
+    <value>Buscar titulo</value>
+  </data>
+  <data name="StudentSyllabusesQuickViewTitle" xml:space="preserve">
+    <value>Información de planes de estudio matriculados</value>
+  </data>
+  <data name="StudentSyllabusesQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del plan de estudio matriculado</value>
+  </data>
+  <data name="StudentSyllabusesTitle" xml:space="preserve">
+    <value>PLANES DE ESTUDIO MATRICULADOS</value>
+  </data>
+  <data name="StudentSyllabusesTitle2" xml:space="preserve">
+    <value>Administración de planes de estudio matriculados</value>
+  </data>
+  <data name="StudentSyllabusesTitle3" xml:space="preserve">
+    <value>Información de planes de estudio matriculados</value>
+  </data>
+  <data name="StudentSyllabusesTitleCreate" xml:space="preserve">
+    <value>Asignar plan de estudio</value>
+  </data>
+  <data name="StudentSyllabusesTitleDelete" xml:space="preserve">
+    <value>Borrar plan de estudio</value>
+  </data>
+  <data name="StudentSyllabusesTitleEdit" xml:space="preserve">
+    <value>Editar plan de estudio</value>
+  </data>
+  <data name="StudentSyllabusesTitleSearch" xml:space="preserve">
+    <value>Buscar plan de estudio</value>
+  </data>
+  <data name="SubjectEBooksQuickViewTitle" xml:space="preserve">
+    <value>Información de asignación de libro electrónico</value>
+  </data>
+  <data name="SubjectEBooksQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada de asignación de libro electrónico</value>
+  </data>
+  <data name="SubjectEBooksTitle" xml:space="preserve">
+    <value>ASIGNACIONES DE LIBROS ELECTRONICOS</value>
+  </data>
+  <data name="SubjectEBooksTitle2" xml:space="preserve">
+    <value>Administración de asignaciones de libros electrónicos</value>
+  </data>
+  <data name="SubjectEBooksTitle3" xml:space="preserve">
+    <value>Información de asignación de libro electrónico</value>
+  </data>
+  <data name="SubjectEBooksTitleCreate" xml:space="preserve">
+    <value>Nueva asignación de libro electrónico</value>
+  </data>
+  <data name="SubjectEBooksTitleDelete" xml:space="preserve">
+    <value>Borrar asignación de libro electrónico</value>
+  </data>
+  <data name="SubjectEBooksTitleEdit" xml:space="preserve">
+    <value>Editar asignación de libro electrónico</value>
+  </data>
+  <data name="SubjectEBooksTitleSearch" xml:space="preserve">
+    <value>Buscar asignación de libro electrónico</value>
+  </data>
+  <data name="SubjectProfessorsQuickViewTitle" xml:space="preserve">
+    <value>Información de módulos asignados</value>
+  </data>
+  <data name="SubjectProfessorsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del módulo asignado</value>
+  </data>
+  <data name="SubjectProfessorsTitle" xml:space="preserve">
+    <value>MODULOS ASIGNADOS</value>
+  </data>
+  <data name="SubjectProfessorsTitle2" xml:space="preserve">
+    <value>Administración de módulos asignados</value>
+  </data>
+  <data name="SubjectProfessorsTitle3" xml:space="preserve">
+    <value>Información de módulos asignados</value>
+  </data>
+  <data name="SubjectProfessorsTitleCreate" xml:space="preserve">
+    <value>Asignar módulo</value>
+  </data>
+  <data name="SubjectProfessorsTitleDelete" xml:space="preserve">
+    <value>Borrar módulo asignado</value>
+  </data>
+  <data name="SubjectProfessorsTitleEdit" xml:space="preserve">
+    <value>Editar módulo asignado</value>
+  </data>
+  <data name="SubjectProfessorsTitleSearch" xml:space="preserve">
+    <value>Buscar módulo asignado</value>
+  </data>
+  <data name="SubjectsQuickViewTitle" xml:space="preserve">
+    <value>Información del módulo</value>
+  </data>
+  <data name="SubjectsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del módulo</value>
+  </data>
+  <data name="SubjectsTitle" xml:space="preserve">
+    <value>MODULOS</value>
+  </data>
+  <data name="SubjectsTitle2" xml:space="preserve">
+    <value>Administración de modulos</value>
+  </data>
+  <data name="SubjectsTitle3" xml:space="preserve">
+    <value>Información del módulo</value>
+  </data>
+  <data name="SubjectsTitleCreate" xml:space="preserve">
+    <value>Crear módulo</value>
+  </data>
+  <data name="SubjectsTitleDelete" xml:space="preserve">
+    <value>Borrar módulo</value>
+  </data>
+  <data name="SubjectsTitleEdit" xml:space="preserve">
+    <value>Editar módulo</value>
+  </data>
+  <data name="SubjectsTitleSearch" xml:space="preserve">
+    <value>Buscar modulos</value>
+  </data>
+  <data name="SubjectTutorsQuickViewTitle" xml:space="preserve">
+    <value>Información de módulos asignados</value>
+  </data>
+  <data name="SubjectTutorsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del módulo asignado</value>
+  </data>
+  <data name="SubjectTutorsTitle" xml:space="preserve">
+    <value>MODULOS ASIGNADOS</value>
+  </data>
+  <data name="SubjectTutorsTitle2" xml:space="preserve">
+    <value>Administración de módulos asignados</value>
+  </data>
+  <data name="SubjectTutorsTitle3" xml:space="preserve">
+    <value>Información de módulos asignados</value>
+  </data>
+  <data name="SubjectTutorsTitleCreate" xml:space="preserve">
+    <value>Asignar módulo</value>
+  </data>
+  <data name="SubjectTutorsTitleDelete" xml:space="preserve">
+    <value>Borrar módulo asignado</value>
+  </data>
+  <data name="SubjectTutorsTitleEdit" xml:space="preserve">
+    <value>Editar módulo asignado</value>
+  </data>
+  <data name="SubjectTutorsTitleSearch" xml:space="preserve">
+    <value>Buscar módulo asignado</value>
+  </data>
+  <data name="SyllabusesQuickViewTitle" xml:space="preserve">
+    <value>Información del plan de estudio</value>
+  </data>
+  <data name="SyllabusesQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del plan de estudio</value>
+  </data>
+  <data name="SyllabusesTitle" xml:space="preserve">
+    <value>PLANES DE ESTUDIO</value>
+  </data>
+  <data name="SyllabusesTitle2" xml:space="preserve">
+    <value>Administración de planes de estudio</value>
+  </data>
+  <data name="SyllabusesTitle3" xml:space="preserve">
+    <value>Información del plan de estudio</value>
+  </data>
+  <data name="SyllabusesTitleCreate" xml:space="preserve">
+    <value>Crear plan de estudio</value>
+  </data>
+  <data name="SyllabusesTitleDelete" xml:space="preserve">
+    <value>Borrar plan de estudio</value>
+  </data>
+  <data name="SyllabusesTitleEdit" xml:space="preserve">
+    <value>Editar plan de estudio</value>
+  </data>
+  <data name="SyllabusesTitleSearch" xml:space="preserve">
+    <value>Buscar planes de estudio</value>
+  </data>
+  <data name="SyllabusLevelsQuickViewTitle" xml:space="preserve">
+    <value>Información de titulo</value>
+  </data>
+  <data name="SyllabusLevelsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada de titulo</value>
+  </data>
+  <data name="SyllabusLevelsTitle" xml:space="preserve">
+    <value>NIVELES</value>
+  </data>
+  <data name="SyllabusLevelsTitle2" xml:space="preserve">
+    <value>Administración de niveles</value>
+  </data>
+  <data name="SyllabusLevelsTitle3" xml:space="preserve">
+    <value>Información del nivel</value>
+  </data>
+  <data name="SyllabusLevelsTitleCreate" xml:space="preserve">
+    <value>Crear nivel</value>
+  </data>
+  <data name="SyllabusLevelsTitleDelete" xml:space="preserve">
+    <value>Borrar nivel</value>
+  </data>
+  <data name="SyllabusLevelsTitleEdit" xml:space="preserve">
+    <value>Editar nivel</value>
+  </data>
+  <data name="SyllabusLevelsTitleSearch" xml:space="preserve">
+    <value>Buscar nivel</value>
+  </data>
+  <data name="SyllabusSubjectsQuickViewTitle" xml:space="preserve">
+    <value>Información del módulo</value>
+  </data>
+  <data name="SyllabusSubjectsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del módulo</value>
+  </data>
+  <data name="SyllabusSubjectsTitle" xml:space="preserve">
+    <value>MODULOS</value>
+  </data>
+  <data name="SyllabusSubjectsTitle2" xml:space="preserve">
+    <value>Administración de módulos</value>
+  </data>
+  <data name="SyllabusSubjectsTitle3" xml:space="preserve">
+    <value>Información del módulo</value>
+  </data>
+  <data name="SyllabusSubjectsTitleCreate" xml:space="preserve">
+    <value>Asignar módulos</value>
+  </data>
+  <data name="SyllabusSubjectsTitleDelete" xml:space="preserve">
+    <value>Borrar módulos</value>
+  </data>
+  <data name="SyllabusSubjectsTitleEdit" xml:space="preserve">
+    <value>Editar módulo</value>
+  </data>
+  <data name="SyllabusSubjectsTitleSearch" xml:space="preserve">
+    <value>Buscar módulo</value>
+  </data>
+  <data name="TutorsQuickViewTitle" xml:space="preserve">
+    <value>Información del tutor</value>
+  </data>
+  <data name="TutorsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del tutor</value>
+  </data>
+  <data name="TutorsTitle" xml:space="preserve">
+    <value>TUTORES</value>
+  </data>
+  <data name="TutorsTitle2" xml:space="preserve">
+    <value>Administración de tutores</value>
+  </data>
+  <data name="TutorsTitle3" xml:space="preserve">
+    <value>Información del tutor</value>
+  </data>
+  <data name="TutorsTitleCreate" xml:space="preserve">
+    <value>Crear tutor</value>
+  </data>
+  <data name="TutorsTitleDelete" xml:space="preserve">
+    <value>Borrar tutor</value>
+  </data>
+  <data name="TutorsTitleEdit" xml:space="preserve">
+    <value>Editar tutor</value>
+  </data>
+  <data name="TutorsTitleSearch" xml:space="preserve">
+    <value>Buscar titulo</value>
+  </data>
+  <data name="UserGroupsQuickViewTitle" xml:space="preserve">
+    <value>Información del grupo de referencia</value>
+  </data>
+  <data name="UserGroupsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del grupo de referencia</value>
+  </data>
+  <data name="UserGroupsTitle" xml:space="preserve">
+    <value>GRUPOS DE REFERENCIA</value>
+  </data>
+  <data name="UserGroupsTitle2" xml:space="preserve">
+    <value>Administración de grupos de referencia</value>
+  </data>
+  <data name="UserGroupsTitle3" xml:space="preserve">
+    <value>Información del grupo de referencia</value>
+  </data>
+  <data name="UserGroupsTitleCreate" xml:space="preserve">
+    <value>Crear grupo de referencia</value>
+  </data>
+  <data name="UserGroupsTitleDelete" xml:space="preserve">
+    <value>Borrar grupo de referencia</value>
+  </data>
+  <data name="UserGroupsTitleEdit" xml:space="preserve">
+    <value>Editar grupo de referencia</value>
+  </data>
+  <data name="UserGroupsTitleSearch" xml:space="preserve">
+    <value>Buscar grupos de referencia</value>
+  </data>
+  <data name="UserRolesQuickViewTitle" xml:space="preserve">
+    <value>Información del rol del usuario</value>
+  </data>
+  <data name="UserRolesQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del rol del usuario</value>
+  </data>
+  <data name="UserRolesTitle" xml:space="preserve">
+    <value>ROLES DEL USUARIO</value>
+  </data>
+  <data name="UserRolesTitle2" xml:space="preserve">
+    <value>Administración de roles del usuario</value>
+  </data>
+  <data name="UserRolesTitle3" xml:space="preserve">
+    <value>Información de roles del usuario</value>
+  </data>
+  <data name="UserRolesTitleCreate" xml:space="preserve">
+    <value>Asignar rol</value>
+  </data>
+  <data name="UserRolesTitleDelete" xml:space="preserve">
+    <value>Borrar rol asignado</value>
+  </data>
+  <data name="UserRolesTitleEdit" xml:space="preserve">
+    <value>Editar rol asignado</value>
+  </data>
+  <data name="UserRolesTitleSearch" xml:space="preserve">
+    <value>Buscar rol asignado</value>
+  </data>
+  <data name="UserSessionsQuickViewTitle" xml:space="preserve">
+    <value>Información de la sesión del usuario en el aula virtual</value>
+  </data>
+  <data name="UserSessionsQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del usuario en el aula virtual</value>
+  </data>
+  <data name="UserSessionsTitle" xml:space="preserve">
+    <value>SESIONES EN EL AULA VIRTUAL</value>
+  </data>
+  <data name="UserSessionsTitle2" xml:space="preserve">
+    <value>Administración de sesiones en el aula virtual</value>
+  </data>
+  <data name="UserSessionsTitle3" xml:space="preserve">
+    <value>Información de la sesión del usuario</value>
+  </data>
+  <data name="UserSessionsTitleCreate" xml:space="preserve">
+    <value>Crear sesión</value>
+  </data>
+  <data name="UserSessionsTitleDelete" xml:space="preserve">
+    <value>Borrar sesión</value>
+  </data>
+  <data name="UserSessionsTitleEdit" xml:space="preserve">
+    <value>Editar sesión</value>
+  </data>
+  <data name="UserSessionsTitleSearch" xml:space="preserve">
+    <value>Buscar sesión</value>
+  </data>
+  <data name="UsersQuickViewTitle" xml:space="preserve">
+    <value>Información del usuario</value>
+  </data>
+  <data name="UsersQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada del usuario</value>
+  </data>
+  <data name="UsersTitle" xml:space="preserve">
+    <value>USUARIOS</value>
+  </data>
+  <data name="UsersTitle2" xml:space="preserve">
+    <value>Administración de usuarios</value>
+  </data>
+  <data name="UsersTitle3" xml:space="preserve">
+    <value>Información del usuario</value>
+  </data>
+  <data name="UsersTitleCreate" xml:space="preserve">
+    <value>Crear usuario</value>
+  </data>
+  <data name="UsersTitleDelete" xml:space="preserve">
+    <value>Borrar usuario</value>
+  </data>
+  <data name="UsersTitleEdit" xml:space="preserve">
+    <value>Editar usuario</value>
+  </data>
+  <data name="UsersTitleSearch" xml:space="preserve">
+    <value>Buscar usuarios</value>
+  </data>
+  <data name="xTableQuickViewTitle" xml:space="preserve">
+    <value>Información de titulo</value>
+  </data>
+  <data name="xTableQuickViewTitle2" xml:space="preserve">
+    <value>Información detallada de titulo</value>
+  </data>
+  <data name="xTableTitle" xml:space="preserve">
+    <value>TITULO</value>
+  </data>
+  <data name="xTableTitle2" xml:space="preserve">
+    <value>Administración de titulo</value>
+  </data>
+  <data name="xTableTitle3" xml:space="preserve">
+    <value>Información de titulo</value>
+  </data>
+  <data name="xTableTitleCreate" xml:space="preserve">
+    <value>Crear titulo</value>
+  </data>
+  <data name="xTableTitleDelete" xml:space="preserve">
+    <value>Borrar titulo</value>
+  </data>
+  <data name="xTableTitleEdit" xml:space="preserve">
+    <value>Editar titulo</value>
+  </data>
+  <data name="xTableTitleSearch" xml:space="preserve">
+    <value>Buscar titulo</value>
+  </data>
+  <data name="TransfersOfStudentsTitle" xml:space="preserve">
+    <value>Traspasos de Estudiantes</value>
+  </data>
+  <data name="TransfersOfStudentsTitle2" xml:space="preserve">
+    <value>Administración Traspasos de Estudiantes</value>
+  </data>
+  <data name="GroupForRegisterTitle" xml:space="preserve">
+    <value>Para Matricular</value>
+  </data>
+  <data name="GroupForRegisterTitle2" xml:space="preserve">
+    <value>Grupos Para Matricular</value>
+  </data>
+  <data name="GroupForSchedulesTitle" xml:space="preserve">
+    <value>Para Programaci&amp;oacute;n</value>
+  </data>
+  <data name="GroupForSchedulesTitle2" xml:space="preserve">
+    <value>Grupos Para Programaci&amp;oacute;n</value>
+  </data>
+  <data name="GroupSchedulesTypedTitle" xml:space="preserve">
+    <value>Programaci&amp;oacute;n Digitada</value>
+  </data>
+  <data name="GroupSchedulesTypedTitle2" xml:space="preserve">
+    <value>Grupos Con Programaci&amp;oacute;n Digitada</value>
+  </data>
+  <data name="GroupSchedulesDelete" xml:space="preserve">
+    <value>Borrar Modulo en la Programaci&amp;oacute;n por Grupo</value>
+  </data>
+  <data name="RegisteredGroupsTitle" xml:space="preserve">
+    <value>Grupos Matriculados</value>
+  </data>
+  <data name="RegisteredGroupsTitle2" xml:space="preserve">
+    <value>Grupos Matriculados</value>
+  </data>
+  <data name="GroupRegisterQuickViewTitle" xml:space="preserve">
+    <value>Informaci&amp;oacute;n del Grupo a Matricular</value>
+  </data>
+  <data name="GroupRegisterQuickViewTitle2" xml:space="preserve">
+    <value>Informaci&amp;oacute;n Detallada del Grupo a Matricular</value>
+  </data>
+  <data name="RegisterTitle" xml:space="preserve">
+    <value>FORMULARIO DE REGISTRO</value>
+  </data>
+  <data name="RegisterTitleCreate" xml:space="preserve">
+    <value>Crear Registro</value>
+  </data>
+</root>

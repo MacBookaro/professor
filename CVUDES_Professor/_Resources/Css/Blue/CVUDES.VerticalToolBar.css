@@ -1,0 +1,120 @@
+﻿.VerticalMenuContainer
+{
+	vertical-align: top;
+	margin: 0;
+	border: 1px solid #C8C8C8;
+	border-collapse: collapse;
+	padding: 4px;
+	height: 140px;
+	width: auto;
+	display: block;
+}
+
+.VerticalToolBar
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border: 0;
+}
+
+/* CAMBIAR AQUI */
+.VerticalToolBarTitle
+{
+	display: block;
+	color: #4983C2;   /* VERDE #339900  AZUL #4983C2  */
+	font-size: 11pt;
+	font-weight: bold;
+	padding-top: 4px;
+	height: 18px;
+	margin: 0;
+	vertical-align: bottom;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.VerticalToolBarSubTitle
+{
+	display: block;
+	padding-top: 7px;
+	height: 15px;
+	width: 100%;
+	border-bottom: 1px solid #E0E0E0;
+	font-weight: bold;
+	font-size: 11px;
+	vertical-align: baseline;
+}
+
+.VerticalToolBarSubTitle span
+{
+	padding-left: 6px;
+}
+
+.VerticalToolBar li
+{
+	display: block;
+	width: auto;
+	margin: 0;
+	height: 20px;
+	border-bottom: 1px solid #E0E0E0;
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+
+.VerticalToolBar a
+{
+	display: block;
+	margin: 0;
+	border: solid 1px #FFFFFF;
+	height: 16px;
+	margin: 0px 0px 0px 0px;
+	padding-right: 6px;
+	padding-left: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-decoration: underline;
+	color: #505050;
+}
+
+.VerticalToolBar a img
+{
+	height: 16px;
+	width: 16px;
+	margin-left: 2px;
+	margin-right: 4px;
+	float: left;
+}
+
+.VerticalToolBar a:hover
+{
+	display: block;
+	background-color: #E9E9E9;
+	width: auto;
+	margin: 0;
+	border: solid 1px #C8C8C8;
+	height: 16px;
+	margin: 0px 0px 0px 0px;
+	padding-right: 6px;
+	padding-left: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-decoration: underline;
+	color: #505050;
+}
+
+.VerticalToolBar a:hover[disabled]
+{
+	display: block;
+	background-color: #FFFFFF;
+	width: auto;
+	margin: 0;
+	border: solid 1px #FFFFFF;
+	height: 16px;
+	margin: 0px 0px 0px 0px;
+	padding-right: 6px;
+	padding-left: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-decoration: underline;
+	color: #505050;
+}

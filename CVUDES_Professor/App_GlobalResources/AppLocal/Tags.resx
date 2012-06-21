@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tagAcademicInformation" xml:space="preserve">
+    <value>Información Académica</value>
+  </data>
+  <data name="tagAdditionalInformation" xml:space="preserve">
+    <value>Información Complementaria</value>
+  </data>
+  <data name="tagAdministratorOptions" xml:space="preserve">
+    <value>Opciones del Administrador</value>
+  </data>
+  <data name="tagAreaPhoneNumber" xml:space="preserve">
+    <value>Código de Área</value>
+  </data>
+  <data name="tagBirthDate" xml:space="preserve">
+    <value>Fecha de Nacimiento:</value>
+  </data>
+  <data name="tagCandidateOptions" xml:space="preserve">
+    <value>Opciones del Candidato</value>
+  </data>
+  <data name="tagCellPhoneNumber" xml:space="preserve">
+    <value>Número Teléfono Móvil</value>
+  </data>
+  <data name="tagCellPhoneNumberAlternative" xml:space="preserve">
+    <value>Número Teléfono Móvil Alternativo</value>
+  </data>
+  <data name="tagCommonOptions" xml:space="preserve">
+    <value>Opciones Comunes</value>
+  </data>
+  <data name="tagConditions" xml:space="preserve">
+    <value>El uso que Usted haga de este formulario de inscripción o de las todas las páginas
+                                        del CV-UDES se regirá por los términos y declaraciones siguientes, denominados colectivamente
+                                        los "Acuerdos":&lt;br&gt;
+                                        &lt;br&gt;
+                                        &lt;a target="_blank" href="http://www.cvudes.edu.co/Terminos.aspx"&gt;Términos de Uso&lt;/a&gt;&lt;br&gt;
+                                        &lt;a target="_blank" href="http://www.cvudes.edu.co/Privacidad.aspx"&gt;Política de Privacidad y Seguridad&lt;/a&gt;&lt;br&gt;
+                                        &lt;br&gt;
+                                        &lt;span class="RequiredField"&gt;Haga clic en cada uno de los vínculos anteriores para abrir
+                                            los Acuerdos en una nueva ventana y, a continuación, imprima o guarde una copia
+                                            del mismo&lt;/span&gt;. Si no acepta los Acuerdos en su totalidad y sin ninguna modificación,
+                                        haga clic en el botón cancelar para interrumpir el registro.&lt;br&gt;
+                                        &lt;br&gt;
+                                        Al hacer clic en el botón &lt;strong&gt;Aceptar&lt;/strong&gt;, estoy firmando y aceptando mi
+                                        vinculación con todos los Acuerdos. Entiendo que si no acepto los Acuerdos en su
+                                        totalidad y sin ninguna modificación, debo hacer clic en el botón &lt;strong&gt;Cancelar&lt;/strong&gt;
+                                        para interrumpir el registro.
+                                        &lt;br&gt;
+                                        &lt;br&gt;</value>
+  </data>
+  <data name="tagConfirmation" xml:space="preserve">
+    <value>Se ha enviado un Correo Electr&amp;oacute;nico de Verificaci&amp;oacute;n de su registro. Por favor revise su Correo Electr&amp;oacute;nico para continuar el proceso de Inscripci&amp;oacute;n.</value>
+  </data>
+  <data name="tagCoordinatorOptions" xml:space="preserve">
+    <value>Opciones del Coordinador</value>
+  </data>
+  <data name="tagDescription" xml:space="preserve">
+    <value>Gracias por considerar a nuestra Institución como la mejor alternativa para ejercer su desarrollo profesional; Por favor suministre la información que a continuación le solicitamos. Toda la información debe ser veraz; ésta será verificada por la Dirección del Departamento de Recurso Humano - UDES.</value>
+  </data>
+  <data name="tagDescriptionPreRegister" xml:space="preserve">
+    <value>Por favor ingrese su información personal. &lt;br /&gt;Todos estos datos son obligatorios.</value>
+  </data>
+  <data name="tagDescriptionSeccion1" xml:space="preserve">
+    <value>Por favor ingrese su información personal. Todos estos datos son obligatorios.</value>
+  </data>
+  <data name="tagDescriptionSeccion2" xml:space="preserve">
+    <value>Por favor ingrese la información que nos permitirá ponernos en contacto con Usted. Le rogamos que no use abreviaturas. Es importante que constate su dirección de correo electrónico ya que este será el medio primordial por el cual nos comunicaremos con Usted.</value>
+  </data>
+  <data name="tagDescriptionSeccion3" xml:space="preserve">
+    <value>Seleccione el plan de estudios al cual desea aplicar. Los reglamentos del CV-UDES no permiten que un aspirante aplique para más de un Programa Académico simultáneamente. Por favor decida cual de nuestros programas es el más apropiado para Usted, antes de enviar la solicitud de inscripción.</value>
+  </data>
+  <data name="tagDescriptionSeccion4" xml:space="preserve">
+    <value>Para diligenciar este formulario es necesario que Usted acepte los Términos de Uso y la Política de Privacidad y Seguridad de este sitio Web.</value>
+  </data>
+  <data name="tagDescriptionSeccion5" xml:space="preserve">
+    <value>Por favor, Indique los codigos de Corretaje y Lider</value>
+  </data>
+  <data name="tagEmail" xml:space="preserve">
+    <value>Correo Electr&amp;oacute;nico:</value>
+  </data>
+  <data name="tagEmail2" xml:space="preserve">
+    <value>Confirmar Correo Electrónico:</value>
+  </data>
+  <data name="tagExpeditionDate" xml:space="preserve">
+    <value>Fecha de Expedici&amp;oacute;n:</value>
+  </data>
+  <data name="tagFirstName" xml:space="preserve">
+    <value>Primer Nombre:</value>
+  </data>
+  <data name="tagFirstSurname" xml:space="preserve">
+    <value>Primer Apellido:</value>
+  </data>
+  <data name="tagGender" xml:space="preserve">
+    <value>Género:</value>
+  </data>
+  <data name="tagHelp" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="tagIdentification" xml:space="preserve">
+    <value>Número Documento de Identidad:</value>
+  </data>
+  <data name="tagIdentificationDocumentType" xml:space="preserve">
+    <value>Tipo Documento de Identidad:</value>
+  </data>
+  <data name="tagIdentificationIssuedLocation" xml:space="preserve">
+    <value>Ciudad:</value>
+  </data>
+  <data name="tagIdentificationIssuedLocationCountry" xml:space="preserve">
+    <value>Pais:</value>
+  </data>
+  <data name="tagIdentificationIssuedLocationRegion" xml:space="preserve">
+    <value>Departamento:</value>
+  </data>
+  <data name="tagInicioSesion" xml:space="preserve">
+    <value>Inicie Sesión</value>
+  </data>
+  <data name="tagLeaderCode" xml:space="preserve">
+    <value>Código Lider</value>
+  </data>
+  <data name="tagMaritalStatusType" xml:space="preserve">
+    <value>Estado Civíl:</value>
+  </data>
+  <data name="tagMiddleName" xml:space="preserve">
+    <value>Segundo Nombre:</value>
+  </data>
+  <data name="tagMiddleSurname" xml:space="preserve">
+    <value>Segundo Apellido:</value>
+  </data>
+  <data name="tagNickUserName" xml:space="preserve">
+    <value>Nombre de Usuario o Nick:</value>
+  </data>
+  <data name="tagNoteProgram" xml:space="preserve">
+    <value>Si Usted no es colombiano, y/o su título profesional fue obtenido en un país extranjero,
+                                                                            aquel deberá ser convalidado en Colombia. Si desea obtener más información acerca
+                                                                            de cómo convalidar su título profesional, por favor escríbanos a la &lt;a title="admisiones@campusvirtualudes.edu.co" href="mailto:admisiones@campusvirtualudes.edu.co"&gt;Dirección de Admisión y Registro&lt;/a&gt;,
+                                                                            y con gusto le indicaremos los pasos a seguir (Aplica solo para Especializaciones).</value>
+  </data>
+  <data name="tagNotification" xml:space="preserve">
+    <value>Su Incripción ha sido Activada Correctamente. Se ha enviado un correo electr&amp;oacute;nico confirmando la activación de la cuenta. &lt;br /&gt;&lt;br /&gt;Por favor consultar el mensaje y seguir las instruccones para continuar con el proceso de registro, si desea puede aceder al sistema de contratación docente, presionando el botón &lt;Strong&gt;Iniciar Sesión&lt;/Strong&gt;.</value>
+  </data>
+  <data name="tagOccupation" xml:space="preserve">
+    <value>Ocupación:</value>
+  </data>
+  <data name="tagPassword" xml:space="preserve">
+    <value>Digite una contraseña:</value>
+  </data>
+  <data name="tagPassword2" xml:space="preserve">
+    <value>Repita la contraseña:</value>
+  </data>
+  <data name="tagPersonalInformation" xml:space="preserve">
+    <value>Información Personal</value>
+  </data>
+  <data name="tagPhoneNumber" xml:space="preserve">
+    <value>Número Teléfono Fijo</value>
+  </data>
+  <data name="tagPlaceBirth" xml:space="preserve">
+    <value>Ciudad de Nacimiento:</value>
+  </data>
+  <data name="tagPlaceBirthCountry" xml:space="preserve">
+    <value>Pais de Nacimiento:</value>
+  </data>
+  <data name="tagPlaceBirthRegion" xml:space="preserve">
+    <value>Departamento Nacimiento:</value>
+  </data>
+  <data name="tagProfession" xml:space="preserve">
+    <value>Profesión:</value>
+  </data>
+  <data name="tagProfessorOptions" xml:space="preserve">
+    <value>Opciones del Docente</value>
+  </data>
+  <data name="tagProgram" xml:space="preserve">
+    <value>Programa Académico:</value>
+  </data>
+  <data name="tagReports" xml:space="preserve">
+    <value>Reportes SNIES</value>
+  </data>
+  <data name="tagResidenceAddress" xml:space="preserve">
+    <value>Dirección:</value>
+  </data>
+  <data name="tagResidencePlace" xml:space="preserve">
+    <value>Ciudad:</value>
+  </data>
+  <data name="tagResidencePlaceCountry" xml:space="preserve">
+    <value>Pais:</value>
+  </data>
+  <data name="tagResidencePlaceRegion" xml:space="preserve">
+    <value>Departamento:</value>
+  </data>
+  <data name="tagSearch" xml:space="preserve">
+    <value>Buscar ...</value>
+  </data>
+  <data name="tagSingIn" xml:space="preserve">
+    <value>Inicie Sesión</value>
+  </data>
+  <data name="tagTittleConfirmation" xml:space="preserve">
+    <value>Confirmación del Registro</value>
+  </data>
+  <data name="tagTittleNotification" xml:space="preserve">
+    <value>Notificación Inscripción</value>
+  </data>
+  <data name="tagTittlePage" xml:space="preserve">
+    <value>Formulario de Registro - Proceso de Contratación Docente</value>
+  </data>
+  <data name="tagTittleSeccion1" xml:space="preserve">
+    <value>Información Personal</value>
+  </data>
+  <data name="tagTittleSeccion2" xml:space="preserve">
+    <value>Información de Contacto</value>
+  </data>
+  <data name="tagTittleSeccion3" xml:space="preserve">
+    <value>Programa Académico</value>
+  </data>
+  <data name="tagTittleSeccion4" xml:space="preserve">
+    <value>Comprobación y Aceptación de los Términos</value>
+  </data>
+  <data name="tagTittleSeccion5" xml:space="preserve">
+    <value>Infomación de Mercadeo</value>
+  </data>
+  <data name="tagUser" xml:space="preserve">
+    <value>Usuario:</value>
+  </data>
+  <data name="tagUserInformation" xml:space="preserve">
+    <value>Información del Usuario</value>
+  </data>
+  <data name="tagUserName" xml:space="preserve">
+    <value>Nombre de Usuario</value>
+  </data>
+  <data name="tagUserPassword" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="tagUsersOptions" xml:space="preserve">
+    <value>Opciones de Usuarios</value>
+  </data>
+  <data name="tagViewInformation" xml:space="preserve">
+    <value>Ver Información de ...</value>
+  </data>
+  <data name="tagWanderingsCode" xml:space="preserve">
+    <value>Código Corretaje</value>
+  </data>
+  <data name="tagWebSite" xml:space="preserve">
+    <value>Sitio Web</value>
+  </data>
+</root>

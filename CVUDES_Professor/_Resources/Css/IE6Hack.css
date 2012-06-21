@@ -1,0 +1,178 @@
+﻿.wgls_tabstrip
+{
+	margin-top: 4px;
+	height: 24px;
+	overflow: hidden;
+}
+
+#divLoading
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #FFFFFF;
+	color: #000000;
+	height: expression((document.documentElement.clientHeight));
+	width: expression((document.documentElement.clientWidth));
+}
+
+#divLoading div
+{
+	position: absolute;
+	margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) +   'px' );
+}
+
+#divProcessing
+{
+	top: 25px;
+	position: absolute;
+	margin-top: expression(0 - parseInt(this.offsetHeight) + (document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) +   'px' );
+	margin-left: expression(parseInt(this.offsetWidth - 220) + (document.documentElement && document.documentElement.scrollLeft || document.body.scrollLeft) +   'px' );
+}
+
+.divMessage
+{
+	/* ie6 hack */
+	position: absolute;
+	z-index: 3000;
+	margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) +                       'px' );
+}
+
+.TabStripHeader
+{
+	height: 35px;
+	margin-top: 4px;
+	padding-top: 4px;
+	display: inline;
+	height: 0px;
+	background-image: url(/_Resources/Images/TabStripBottomLine.gif);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	padding-bottom: 0px;
+}
+
+.TabStripContainerIE6
+{
+	margin-top: -2px;
+	border-left: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+	display: block;
+	padding-top: 0px;
+}
+
+.TabStripContainer
+{
+	display: block;
+	border-top: 0px solid #FFFFFF;
+	margin-top: 0px;
+}
+
+.MainMenu li
+{
+	display: block;
+	margin: 0;
+	height: 19px;
+	border-bottom: 1px solid #E0E0E0;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.MainMenu a
+{
+	height: 18px;
+	display: block;
+	margin: 0;
+	width: 100%;
+	text-decoration: underline;
+	font-weight: normal;
+	border: 0;
+	padding-bottom: 1px;
+	padding-top: 3px;
+	color: #505050;
+}
+
+.MainMenu a:hover
+{
+	height: 18px;
+	display: block;
+	margin-bottom: 0px;
+	background-image: none;
+	background-color: #F0F0F0;
+	margin-top: 0px;
+	width: 100%;
+	text-decoration: underline;
+	font-weight: normal;
+	border: 0;
+	border-bottom: solid 1px white;
+	border-top: solid 1px white;
+	padding-bottom: 0px;
+	padding-top: 2px;
+	color: #505050;
+}
+
+.BoxUnderline
+{
+	width: 100%;
+	display: block;
+	border-bottom: solid 1px #C8C8C8;
+	text-align: left;
+}
+
+.ToolBar ul
+{
+	padding-right: 1px;
+	padding-left: 1px;
+}
+.ToolBar ul li a
+{
+	margin: 1px 0px 1px 0px;
+}
+
+.ToolBar ul li a:hover
+{
+	margin: 1px 0px 0px 0px;
+}
+
+.ToolBarPager li a
+{
+	padding: 0px 2px 0px 2px;
+	margin: 1px 0px 0px 1px;
+}
+
+.ToolBarPager li a:hover
+{
+	padding: 0px 2px 0px 2px;
+	margin: 1px 0px 0px 1px;
+}
+
+#CenterCol
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	height: 450px;
+}
+
+.TabStripContainer
+{
+	padding: 5px 5px 5px 5px;
+	vertical-align: top;
+	border-bottom: 1px solid #C8C8C8;
+	border-left: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+}
+
+.TabStripContainer2
+{
+	padding: 5px 5px 3px 5px;
+	vertical-align: top;
+	border-bottom: 1px solid #C8C8C8;
+	border-left: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+}
+
+.DivContainer .FormLayoutButtons
+{
+	margin-top: 0px;
+}

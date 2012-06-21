@@ -1,0 +1,180 @@
+﻿#QuickViewContainer
+{
+}
+
+@media print
+{
+	.QuickViewContent
+	{
+		height: 100%;
+		overflow: hidden;
+		overflow-y: hidden;
+	}
+
+	#QuickViewContainer .ToolBar
+	{
+		display: none;
+	}
+}
+
+/* CAMBIAR AQUI */
+.QuickViewTitle
+{
+	font-size: 16px;
+	color: #4983C2; /* VERDE #339900  AZUL #4983C2 */
+	font-weight: bold;
+}
+
+.QuickViewSubTitle
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+.QuickViewBox
+{
+	border: solid 1px #C8C8C8;
+}
+
+.QuickViewHeader
+{
+	background-color: #FFFFCC;
+	padding: 8px;
+}
+
+.QuickViewHeader img
+{
+	float: left;
+	margin-right: 8px;
+}
+
+.QuickViewContent
+{
+	display: block;
+	text-align: left;
+	height: 281px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 2px;
+}
+
+.TableDisplayHeader
+{
+	display: block;
+	border-bottom: solid 1px #C8C8C8;
+	color: Black;
+	font-weight: bold;
+	padding-bottom: 2px;
+	padding-top: 15px;
+	padding-left: 7px;
+	width: 100%;
+}
+
+.TableDisplay th
+{
+	width: 20%;
+	padding: 2px 0px 2px 0px;
+	border-bottom: 1px solid #F2F2F2;
+	text-align: right;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+.TableDisplay td
+{
+	padding: 2px 12px 2px 4px;
+	border-bottom: 1px solid #F2F2F2;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.TableTraceDelete
+{
+}
+
+.TableTraceDelete td
+{
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid #F2F2F2;
+}
+
+.TableTraceInsert
+{
+}
+
+.TableTraceInsert th
+{
+	background-color: #F8F8F8;
+	padding: 3px 0px 2px 4px;
+	text-align: left;
+	font-weight: bold;
+	border-top: 1px solid #C8C8C8;
+	border-bottom: 1px solid #C8C8C8;
+}
+
+.TableTraceInsert td.Field
+{
+	padding: 2px 0px 2px 0px;
+	text-align: right;
+	border-bottom: 1px solid #F2F2F2;
+	vertical-align: top;
+}
+
+.TableTraceInsert td.FieldValue
+{
+	width: 620px;
+	font-weight: bold;
+	padding: 2px 0px 2px 6px;
+	text-align: left;
+	border-bottom: 1px solid #F2F2F2;
+	vertical-align: top;
+}
+
+.TableTraceInsert td
+{
+	padding: 2px 0px 2px 6px;
+	text-align: left;
+	border-bottom: 1px solid #F2F2F2;
+	vertical-align: top;
+}
+
+.TableTraceUpdate
+{
+}
+
+.TableTraceUpdate th
+{
+	background-color: #F8F8F8;
+	padding: 3px 0px 2px 4px;
+	text-align: left;
+	font-weight: bold;
+	border-top: 1px solid #C8C8C8;
+	border-bottom: 1px solid #C8C8C8;
+}
+
+.TableTraceUpdate td.Field
+{
+	padding: 2px 0px 2px 0px;
+	text-align: right;
+	border-bottom: 1px solid #F2F2F2;
+	vertical-align: top;
+}
+
+.TableTraceUpdate td.FieldValue
+{
+	width: 310px;
+	font-weight: bold;
+	padding: 2px 0px 2px 6px;
+	text-align: left;
+	border-bottom: 1px solid #F2F2F2;
+	vertical-align: top;
+}
+
+.TableTraceUpdate td
+{
+	padding: 2px 0px 2px 6px;
+	text-align: left;
+	border-bottom: 1px solid #F2F2F2;
+	vertical-align: top;
+}

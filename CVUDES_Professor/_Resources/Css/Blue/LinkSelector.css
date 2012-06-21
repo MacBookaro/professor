@@ -1,0 +1,395 @@
+/* LinkSelector Theme */
+
+/* --------------------------------------------------------------------- */
+/* Simple styling for use when setting CssClass directly. Examples       */
+/* LinkButtonStyle.CssClass="wgls_stdlink"                               */
+/* DisabledItemStyle.CssClass="wgls_disabledlink"                        */
+/* SelectedItemStyle.CssClass="wgls_selectedlink"                        */
+/* --------------------------------------------------------------------- */
+a.wgls_stdlink, a.wgls_disabledlink, a.wgls_selectedlink
+{
+	color: Black;
+	background-color: white;
+	background-image: url(/_Resources/Templates/Blue/TabStrip/Ts.gif);
+	background-repeat: repeat-x;
+	text-decoration : none;
+	padding: 3px 4px 0px 4px;	
+}
+a.wgls_stdlink 
+{ 
+}
+a.wgls_disabledlink 
+{ 
+	color: Silver;
+}
+a.wgls_selectedlink
+{
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsSel.gif);
+	background-repeat: repeat-x;
+	position: relative;
+	top: -1px;
+}
+a.wgls_stdlink:hover 
+{
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsSel.gif);
+	background-repeat: repeat-x;
+	position: relative;
+	top: -1px;
+}
+
+/* ----------------------------------------------------------------------- */
+/* LinkSelector.LinkSelectorType=ThemedLinkList                            */
+/* ----------------------------------------------------------------------- */
+.wgls ul
+{
+	display:inline;
+	height:18px;
+	padding-left: 0px;
+	float: left;
+	width: 100%;
+	margin-left: 0px;	
+	color: Black;	
+}
+.wgls ul li 
+{ 
+	list-style: none;
+	margin: 0;
+	display: inline; 
+	padding: 0px;
+}
+.wgls ul li span
+{	
+	float: left;
+}
+.wgls ul li a
+{	
+	float: left;
+	padding: 3px 4px 0px 4px;
+	text-decoration: none;
+}
+.wgls ul li a.wgls_link
+{
+	color: Black;
+	background-image: url(/_Resources/Templates/Blue/TabStrip/Ts.gif);
+	background-repeat: repeat-x;
+}
+.wgls ul li a.wgls_link:hover
+{
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsSel.gif);
+	background-repeat: repeat-x;
+	position: relative;
+	top: -1px;
+}
+.wgls ul li a.wgls_selected
+{
+	color: Black;
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsSel.gif);
+	background-repeat: repeat-x;
+	position: relative;
+	top: -1px;
+}
+.wgls ul li a.wgls_selected:hover
+{
+}
+.wgls ul li a.wgls_disabled
+{
+	color: Silver;
+	background-image: url(/_Resources/Templates/Blue/TabStrip/Ts.gif);
+	background-repeat: repeat-x;
+}
+.wgls ul li a.wgls_disabled:hover
+{
+	color: Silver;
+	background-image: url(/_Resources/Templates/Blue/TabStrip/Ts.gif);
+	background-repeat: repeat-x;
+}
+
+/* ----------------------------------------------------------------------- */
+/* LinkSelector.LinkSelectorType=ThemedTabStrip                            */
+/* ----------------------------------------------------------------------- */
+.wgls_tabstrip ul
+{
+	padding-left: 0px;
+	float: left;
+	width: 100%;
+	margin-left: 0px;	
+	color: Black;
+	height: 18px;
+}
+.wgls_tabstrip ul li 
+{ 
+	list-style: none;
+	margin: 0;
+	display: inline; 
+	padding: 0px;
+}
+.wgls_tabstrip ul li span
+{	
+	float: left;	
+}
+.wgls_tabstrip ul li a
+{	
+	float: left;
+	padding: 2px 4px 0px 4px;
+	text-decoration: none;
+}
+.wgls_tabstrip ul li a.wgls_link /* Modificado */
+{
+	color: Black;
+	background-image: url(/_Resources/Templates/Blue/TabStrip/Ts.gif);
+	background-repeat: repeat-x;
+	border-bottom:solid 1px #C8C8C8;
+}
+.wgls_tabstrip ul li a.wgls_link:hover
+{
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsSel.gif);
+	background-repeat: repeat-x;
+	text-decoration:none;
+}
+.wgls_tabstrip ul li a.wgls_selected
+{
+	color: Black;
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsSel.gif);
+	background-repeat: repeat-x;
+	border-top:solid 1px #C8C8C8;
+}
+.wgls_tabstrip ul li a.wgls_selected:hover
+{
+		text-decoration:none;
+}
+.wgls_tabstrip ul li a.wgls_disabled
+{
+	color: Silver;
+	background-image: url(/_Resources/Templates/Blue/TabStrip/Ts.gif);
+	background-repeat: repeat-x;
+	text-decoration:none;
+	border-bottom:solid 1px #C8C8C8;	
+}
+.wgls_tabstrip ul li a.wgls_disabled:hover
+{
+	color: Silver;
+	background-image: url(/_Resources/Templates/Blue/TabStrip/Ts.gif);
+	background-repeat: repeat-x;
+}
+.wgls_tabstrip ul li span, .wgls_tabstrip ul li a
+{
+	font-family : tahoma; 
+	font-size: 11px;	
+	height: 18px;
+	line-height: 15px;
+	padding-top: 4px;
+}
+.wgls_tabstrip ul li a
+{
+	border-bottom: 1px solid #919b9c;
+}
+.wgls_tabstrip ul li span
+{
+	background-color : Transparent;
+}
+.wgls_tabstrip ul
+{	
+	margin-bottom: -2px; /* Needed for Mozilla/Firefox to avoid gap below tabstrip */	
+}
+.wgls_tabstrip ul li a.wgls_selected
+{
+	color: Black;
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsSel.gif);
+	background-repeat: repeat-x;
+	border-bottom: 0px;
+}
+/* leftmost edge */
+.wgls_tabstrip_l
+{
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsLeft.gif);
+	background-repeat: no-repeat;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;	
+	padding-top: 2px;
+	width: 2px;
+	border-bottom: 1px solid #C8C8C8;
+}
+.wgls_tabstrip_l_selected
+{
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsSelLeft.gif);
+	background-repeat: no-repeat;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 2px;
+	width: 2px;
+	border-top:solid 1px white;
+}
+/* tab item separator, left */
+.wgls_tabstrip_sepl
+{
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsRight.gif);
+	background-repeat: no-repeat;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 2px;
+	width: 3px;
+	border-bottom: 1px solid #C8C8C8;
+}
+.wgls_tabstrip_sepl_selected
+{
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsSelRight.gif);
+	background-repeat: no-repeat;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 2px;
+	width: 3px;
+	border-top:solid 1px white;
+}
+/* tab item separator, right */
+.wgls_tabstrip_sepr
+{
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsLeft.gif);
+	background-repeat: no-repeat;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 2px;
+	width: 3px;
+	border-bottom: 1px solid #C8C8C8;
+}
+.wgls_tabstrip_sepr_selected
+{
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsSelLeft.gif);
+	background-repeat: no-repeat;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 2px;
+	width: 3px;
+	border-top:solid 1px white;
+}
+/* rightmost edge */
+.wgls_tabstrip_r
+{
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsRight.gif);
+	background-repeat: no-repeat;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 2px;
+	width: 3px;
+	border-bottom: 1px solid #C8C8C8;
+}
+.wgls_tabstrip_r_selected
+{
+	background-image: url(/_Resources/Templates/Blue/TabStrip/TsSelRight.gif);
+	background-repeat: no-repeat;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 3px;
+	border-top:solid 1px white;
+}
+
+/* ----------------------------------------------------------------------- */
+/* IsSubTabSelector=True                                                   */
+/* ----------------------------------------------------------------------- */
+.wgls_subtabstrip ul
+{	
+	margin-top: 3px;
+	padding-left: 5px;
+	background-color: Transparent;
+}
+.wgls_subtabstrip ul li a.wgls_link
+{
+	background-color: white;		
+}
+.wgls_subtabstrip ul li a:hover
+{
+}
+.wgls_subtabstrip ul li a.wgls_selected
+{
+	background-color: white;	
+}
+
+/* ----------------------------------------------------------------------- */
+/* LinkSelector.LinkSelectorType=ThemedNavigationBar                       */
+/* ----------------------------------------------------------------------- */
+.wgls_navbar ul
+{
+	padding: 0px;
+	float: none;
+	width: 100%;
+	margin: 0px;	
+	color: Black;	
+}
+.wgls_navbar ul li 
+{ 
+	list-style: none;
+	margin: 0;
+	display: block; 
+}
+.wgls_navbar ul li a, .wgls_navbar ul li span
+{	
+	width: 100%;
+	float: none;
+	text-decoration: none;		 
+	display: block;	
+	padding: 2px 6px 2px 6px;
+	border: 1px solid;
+	border-color: #dddddd #919b9c #919b9c #dddddd;
+	background-color: #f0f0ea;
+	color: Black;
+}
+.wgls_navbar ul li a.wgls_link
+{
+	display: block;
+}
+.wgls_navbar ul li a.wgls_link:hover
+{
+	background-color: White;
+}
+.wgls_navbar ul li a.wgls_selected
+{
+	background-color: DarkOrange;
+}
+.wgls_navbar ul li a.wgls_selected:hover
+{
+	background-color: DarkOrange;
+}
+.wgls_navbar ul li a.wgls_disabled
+{
+	color: Gray;
+}
+.wgls_navbar ul li a.wgls_disabled:hover
+{
+}
+
+/* ----------------------------------------------------------------------- */
+/* tab footer and tabbox                                                   */
+/* ----------------------------------------------------------------------- */
+/* mathing footer bar below tabstrip. Set width and height in style properties on page */
+.wgls_tabfooter
+{	
+	clear: left;
+	margin:0px; border:0px;padding:0px;
+	padding-top: 1px;
+	line-height:0px;font-size:0px;	
+	border-left: 1px solid #919b9c;
+	height: 25px;
+}
+/* matching panel below tabstrip. Set width and height in style properties on page */
+.wgls_tabbox
+{
+	/* line-height:1px; font-size:1px; */
+	background-color: white;	
+	margin-top: 0px;
+	padding-top: 4px;
+	border-top: 0px;
+	/*
+	border: 1px solid #919b9c;
+	position: relative;
+	top: -1;
+	z-index: -1;
+	*/
+	clear: left;
+}

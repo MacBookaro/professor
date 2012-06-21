@@ -1,0 +1,439 @@
+﻿/* TEXT */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* CAMBIAR AQUI */
+.MyInfoTitle
+{
+	font-size: 16px;
+	color: #4983C2;			/* VERDE #339900 AZUL #4983C2 */
+	font-weight: bold;
+}
+
+#divLoading
+{
+	position: fixed;
+	z-index: 1000000;
+	top: 0px;
+	left: 0px;
+	background-color: #FFFFFF;
+	height: 100%;
+	width: 100%;
+}
+
+#divLoading div
+{
+	width: 500px;
+	height: 60px;
+	position: fixed;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	margin-top: -30px;
+	margin-left: -250px;
+	color: #000000;	
+}
+
+#divProcessing
+{
+	position: fixed;
+	z-index: 20000;
+	top: 0px;
+	left: 0px;
+	background-color: Red;
+	color: White;
+	height: 25px;
+	width: 220px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.divMessage
+{
+	width: 500px;
+	height: 60px;
+	position: fixed;
+	background: #FFFFFF;
+	z-index: 3000;
+	color: #000000;
+	display: block;
+	border: 2px solid #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	top: 50%;
+	left: 50%;
+	margin-top: -30px;
+	margin-left: -250px;
+	font: 11px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.divMessage img
+{
+	margin-top: 6px;
+}
+
+.PageTitle
+{
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	color: #000000;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.PageSubTitle
+{
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #505050;
+	font-weight: bold;
+}
+
+/* Elemento de Marco */
+
+.HeaderBox
+{
+	display: block;
+	width: 990px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.HeaderBar
+{
+	display: block;
+	height: 10px;
+	font-size: 1px;
+	width: 100%;
+	background-image: url(/_Resources/Templates/Blue/Tabs/BarT.png);
+	background-repeat: repeat-x;
+}
+
+.FormTop
+{
+	display: block;
+	height: 17px;
+	width: 100%;
+	background-image: url(/_Resources/Templates/Blue/Tabs/FTM.png);
+	background-repeat: repeat-x;
+}
+.FormTopLeft
+{
+	display: block;
+	float: left;
+	height: 17px;
+	width: 17px;
+	background-image: url(/_Resources/Templates/Blue/Tabs/FTL.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+.FormTopRight
+{
+	display: block;
+	float: right;
+	height: 17px;
+	width: 17px;
+	background-image: url(/_Resources/Templates/Blue/Tabs/FTR.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.FormBottom
+{
+	display: block;
+	height: 17px;
+	width: 990px;
+	background-image: url(/_Resources/Templates/Blue/Tabs/FBM.png);
+	background-repeat: repeat-x;
+}
+.FormBottomLeft
+{
+	display: block;
+	float: left;
+	height: 17px;
+	width: 17px;
+	background-image: url(/_Resources/Templates/Blue/Tabs/FBL.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+.FormBottomRight
+{
+	display: block;
+	float: right;
+	height: 17px;
+	width: 17px;
+	background-image: url(/_Resources/Templates/Blue/Tabs/FBR.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.MainCol
+{
+	display: block;
+	min-height: 500px;
+	margin: 0;
+	padding: 10px;
+}
+
+.FooterBox
+{
+	text-align: left;
+	bottom: 0;
+	width: 990px;
+	margin: 0 auto;
+	display: block;
+}
+
+.FooterBar
+{
+	height: 11px;
+	width: 100%;
+	background-image: url(/_Resources/Templates/Blue/Tabs/BarB.png);
+	background-repeat: repeat-x;
+}
+
+/* Menu Principal */
+
+.HeaderMenuMiddle
+{
+	background: url(/_Resources/Templates/Blue/Tabs/TabM.png);
+}
+
+.HeaderMenuLeftCorner
+{
+	width: 12px;
+	height: 25px;
+	background: url(/_Resources/Templates/Blue/Tabs/TabMenuL.png);
+}
+
+.HeaderMenuRightCorner
+{
+	width: 12px;
+	height: 25px;
+	background: url(/_Resources/Templates/Blue/Tabs/TabMenuR.png);
+}
+.HeaderMenuMiddleSmall
+{
+	background: url(/_Resources/Templates/Blue/Tabs/TabMs.png);
+}
+
+.HeaderMenuLeftCornerSmall
+{
+	width: 12px;
+	height: 23px;
+	background: url(/_Resources/Templates/Blue/Tabs/TabLs.png);
+}
+
+.HeaderMenuRightCornerSmall
+{
+	width: 12px;
+	height: 23px;
+	background: url(/_Resources/Templates/Blue/Tabs/TabRs.png);
+}
+.HeaderMenu
+{
+	display: inline-block;
+	width: 119px;
+	text-align: center;
+	font-weight: bold;
+	background-image: url(/_Resources/Templates/Blue/Tabs/TabMenuItem.png);
+}
+
+/* CAMBIAR AQUI */
+.HeaderMenu a
+{
+	display: block;
+	color: #505050;				/* GRIS #505050 BLANCO #FFFFFF */
+	text-decoration: none;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	width: 119px;
+	background-image: url(/_Resources/Templates/Blue/Tabs/TabMenuItem.png);
+}
+
+/* CAMBIAR AQUI */
+.HeaderMenu a:hover
+{
+	display: block;
+	color: #505050;				/* GRIS #505050 BLANCO #FFFFFF */
+	text-decoration: none;
+	width: 119px;
+	background-image: url(/_Resources/Templates/Blue/Tabs/tabMenuHover.png);
+}
+.HeaderMenuSelected
+{
+	display: inline-block;
+	width: 119px;
+	text-align: center;
+	font-weight: bold;
+	background-image: url(/_Resources/Templates/Blue/Tabs/TabMenuSelected.png);
+}
+.HeaderMenuSelected a
+{
+	display: block;
+	color: #000000;
+	text-decoration: none;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	width: 119px;
+}
+.HeaderMenuSelected a:hover
+{
+	color: #000000;
+	text-decoration: none;
+	width: 119px;
+}
+
+#CenterBox
+{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 500px;
+	height: 300px;
+	margin-top: -150px;
+	margin-left: -250px;
+}
+
+#WrapperRight
+{
+	text-align: left;
+	width: 990px;
+	background: #FFFFFF url(/_Resources/Templates/Blue/Tabs/FMR.png) repeat-y top right;
+	margin: 0 auto;
+}
+
+#WrapperLeft
+{
+	text-align: left;
+	width: 100%;
+	margin: 0 auto;
+	background: url(/_Resources/Templates/Blue/Tabs/FML.png) repeat-y top left;
+}
+
+#MainCol
+{
+	margin: 0;
+	padding: 0px;
+}
+
+#CenterCol
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	min-height: 450px;
+}
+
+.MessageError
+{
+	border: 1px solid #C8C8C8;
+	background-color: #FFFFE1;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+
+.SeparatorDotted
+{
+	margin-top: 2px;
+	height: 3px;
+	font-size: 1px;
+	border-top: 1px dotted #999999;
+}
+
+.UserControlBox
+{
+	border: 1px solid #C8C8C8;
+    border-collapse: collapse;
+    height: 112px;
+    margin: 0;
+    padding: 5px;
+    vertical-align: top;
+    width: auto;
+}
+
+.TabStripHeader
+{
+	clear: both;
+	height: 35px;
+	background-image: url(/_Resources/Images/TabStripBottomLine.gif);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+
+.TabStripContainerIE6
+{
+	display: none;
+}
+
+.TabStripContainer
+{
+	padding: 5px 5px 3px 5px;
+	vertical-align: top;
+	border-bottom: 1px solid #C8C8C8;
+	border-left: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+}
+
+.TabStripContainer2
+{
+	padding: 5px 5px 5px 5px;
+	vertical-align: top;
+	border-bottom: 1px solid #C8C8C8;
+	border-left: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+}
+
+.TabStripContainerTable1
+{
+}
+
+.TabStripContainerBottomLine1
+{
+	display: none;
+}
+
+.RelatedSubTitle
+{
+	display: block;
+	padding-bottom: 3px;
+	font-size: 13px;
+	font-weight: bold;
+	border-bottom: 1px solid #E0E0E0;
+	padding-top: 10px;
+	text-decoration: none;
+	color: #505050;
+}
+
+.RelatedSubTitle img
+{
+	width: 16px;
+	height: 16px;
+	margin-left: 0px;
+	margin-right: 2px;
+	float: left;
+}
+
+/* CAMBIAR AQUI */
+.RelatedSubTitle:hover
+{
+	color: #4983C2; /* VERDE #339900 AZUL #4983C2 */
+	text-decoration: underline;
+}
+
+.TextRed
+{
+	color: Red;
+}
+
+.BoxUnderline
+{
+	width: 100%;
+	display: block;
+	border-bottom: solid 1px #C8C8C8;
+	text-align: left;
+}

@@ -1,0 +1,29 @@
+﻿#TabStrip
+{
+	clear: both;
+	padding-top: 4px;
+	height: 24px;
+}
+
+.TabStripContainer
+{
+	padding: 5px 5px 5px 5px;
+	vertical-align: top;
+	border-bottom: 1px solid #C8C8C8;
+	border-left: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+}
+
+.TabStripContainer2
+{
+	padding: 5px 5px 3px 5px;
+	vertical-align: top;
+	border-bottom: 1px solid #C8C8C8;
+	border-left: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+}
+
+.DivContainer .FormLayoutButtons
+{
+	margin-top: 0px;
+}

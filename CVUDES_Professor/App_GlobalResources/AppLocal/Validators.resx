@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cpvPassword" xml:space="preserve">
+    <value>Las contraseñas no coinciden</value>
+  </data>
+  <data name="revEmail" xml:space="preserve">
+    <value>El Campo 'Correo Electronico' es no tiene un formato válido de email</value>
+  </data>
+  <data name="revPhoneNumber" xml:space="preserve">
+    <value>El Campo 'Número Teléfono Fijo' solo admite números enteros</value>
+  </data>
+  <data name="rfvAreaPhoneNumber" xml:space="preserve">
+    <value>El Campo 'Código de Área' es Obligatorio</value>
+  </data>
+  <data name="rfvBirthDate" xml:space="preserve">
+    <value>El Campo 'Fecha Nacimiento' es Obligatorio</value>
+  </data>
+  <data name="rfvCellPhoneNumber" xml:space="preserve">
+    <value>El Campo 'Número Teléfono Móvil' es Obligatorio</value>
+  </data>
+  <data name="rfvCellPhoneNumberAlternative" xml:space="preserve">
+    <value>El Campo 'Número Teléfono Móvil Alternativo' es Obligatorio</value>
+  </data>
+  <data name="rfvEmail" xml:space="preserve">
+    <value>El Campo 'Correo Electronico' es Obligatorio</value>
+  </data>
+  <data name="rfvEmail2" xml:space="preserve">
+    <value>Correo electrónico no valido</value>
+  </data>
+  <data name="rfvExpeditionDate" xml:space="preserve">
+    <value>El Campo 'Fecha de expedición' es Obligatorio</value>
+  </data>
+  <data name="rfvFirstName" xml:space="preserve">
+    <value>El Campo 'Primer Nombre' es Obligatorio</value>
+  </data>
+  <data name="rfvFirstSurname" xml:space="preserve">
+    <value>El Campo 'Primer Apellido' es Obligatorio </value>
+  </data>
+  <data name="rfvGender" xml:space="preserve">
+    <value>El Campo 'Genero' es Obligatorio</value>
+  </data>
+  <data name="rfvIdentification" xml:space="preserve">
+    <value>El Campo 'Número de Documento' es Obligatorio</value>
+  </data>
+  <data name="rfvIdentificationDocumentType" xml:space="preserve">
+    <value>El Campo 'Tipo de Documento' es Obligatorio</value>
+  </data>
+  <data name="rfvIdentificationIssuedLocation" xml:space="preserve">
+    <value>El Campo 'Ciudad' es Obligatorio</value>
+  </data>
+  <data name="rfvIdentificationIssuedLocationCountry" xml:space="preserve">
+    <value>El Campo 'Pais' es Obligatorio</value>
+  </data>
+  <data name="rfvIdentificationIssuedLocationRegion" xml:space="preserve">
+    <value>El Campo 'Departamento' es Obligatorio</value>
+  </data>
+  <data name="rfvLeaderCode" xml:space="preserve">
+    <value>El Campo 'Código Lider' es Obligatorio</value>
+  </data>
+  <data name="rfvMaritalStatusType" xml:space="preserve">
+    <value>El Campo 'Estado Civíl' es Obligatorio</value>
+  </data>
+  <data name="rfvNickUserName" xml:space="preserve">
+    <value>El Campo 'Nombre de Usuario o Nick' es Obligatorio</value>
+  </data>
+  <data name="rfvOccupation" xml:space="preserve">
+    <value>El Campo 'Ocupación' es Obligatorio</value>
+  </data>
+  <data name="rfvPassword" xml:space="preserve">
+    <value>El Campo 'Contraseña' es Obligatorio</value>
+  </data>
+  <data name="rfvPassword2" xml:space="preserve">
+    <value>El Campo 'Repita la Contraseña' es Obligatorio</value>
+  </data>
+  <data name="rfvPhoneNumber" xml:space="preserve">
+    <value>El Campo 'Numero de Telefono Fijo' es Obligatorio</value>
+  </data>
+  <data name="rfvPlaceBirth" xml:space="preserve">
+    <value>El Campo 'Ciudad de Nacimiento' es Obligatorio</value>
+  </data>
+  <data name="rfvPlaceBirthCountry" xml:space="preserve">
+    <value>El Campo 'Pais de Nacimiento' es Obligatorio</value>
+  </data>
+  <data name="rfvPlaceBirthRegion" xml:space="preserve">
+    <value>El Campo 'Departamento de Nacimiento' es Obligatorio</value>
+  </data>
+  <data name="rfvProfession" xml:space="preserve">
+    <value>El Campo 'Profesión' es Obligatorio</value>
+  </data>
+  <data name="rfvProgram" xml:space="preserve">
+    <value>El Campo 'Programa' es Obligatorio</value>
+  </data>
+  <data name="rfvResidenceAddress" xml:space="preserve">
+    <value>El Campo 'Dirección' es Obligatorio</value>
+  </data>
+  <data name="rfvResidencePlace" xml:space="preserve">
+    <value>El Campo 'Ciudad' es Obligatorio</value>
+  </data>
+  <data name="rfvResidencePlaceCountry" xml:space="preserve">
+    <value>El Campo 'Pais' es Obligatorio</value>
+  </data>
+  <data name="rfvResidencePlaceRegion" xml:space="preserve">
+    <value>El Campo 'Departamento' es Obligatorio</value>
+  </data>
+  <data name="rfvUserName" xml:space="preserve">
+    <value>El Campo 'Usuario' es Obligatorio</value>
+  </data>
+  <data name="rfvWanderingsCode" xml:space="preserve">
+    <value>El Campo 'Código Corretaje' es Obligatorio</value>
+  </data>
+</root>

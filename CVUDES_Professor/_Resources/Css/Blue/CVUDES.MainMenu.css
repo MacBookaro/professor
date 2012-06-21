@@ -1,0 +1,130 @@
+﻿.MainContainer
+{
+	vertical-align: top;
+	margin: 0;
+	border: 1px solid #C8C8C8;
+	padding: 8px;
+}
+
+.MainContainerSpacer
+{
+	width: 3px;
+}
+
+.MainMenu
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border: 0;
+}
+
+/* CAMBIAR AQUI */
+.MainMenuTitle
+{
+	display: block;
+	color: #4983C2; /* VERDE #339900 AZUL #4983C2 */
+	font-size: 11pt;
+	font-weight: bold;
+	padding-top: 4px;
+	height: 18px;
+	margin: 0;
+	vertical-align: bottom;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.MainMenuSubTitle
+{
+	display: block;
+	padding-top: 7px;
+	height: 15px;
+	width: 100%;
+	border-bottom: 1px solid #E0E0E0;
+	font-weight: bold;
+	font-size: 11px;
+	vertical-align: baseline;
+}
+
+.MainMenuSubTitle span
+{
+	padding-left: 6px;
+}
+
+.MainMenu li
+{
+	display: block;
+	margin: 0;
+	height: 20px;
+	border-bottom: 1px solid #E0E0E0;
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+
+.MainMenu a
+{
+	height: 19px;
+	display: block;
+	margin: 0;
+	width: 100%;
+	text-decoration: underline;
+	font-weight: normal;
+	border: 0;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	color: #505050;
+}
+
+.MainMenu a img
+{
+	height: 16px;
+	width: 16px;
+	margin-left: 6px;
+	margin-right: 4px;
+	float: left;
+}
+
+.MainMenu a:hover
+{
+	height: 19px;
+	display: block;
+	background-image: url(/_Resources/Images/CellItemBgr.png);
+	background-repeat: repeat-x;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	width: 100%;
+	text-decoration: underline;
+	font-weight: normal;
+	border: 0;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	color: #505050;
+}
+
+#MainCommonOptions
+{
+	background-image: url(/_Resources/Images/Main_Related.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+#MainRelated
+{
+	background-image: url(/_Resources/Images/Main_Related.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+#MainAdmin
+{
+	background-image: url(/_Resources/Images/Main_Admin.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+#MainHelp
+{
+	background-image: url(/_Resources/Images/Main_Help.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}

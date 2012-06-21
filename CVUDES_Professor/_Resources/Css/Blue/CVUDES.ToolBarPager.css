@@ -1,0 +1,92 @@
+﻿.ToolBarPager
+{
+	height: 22px;
+	padding-right: 1px;
+	border: solid 1px #C8C8C8;
+	margin-top: 4px;
+	margin-bottom: 2px;
+	background-color: #F4F4F4;
+}
+
+.ToolBarPager div ul
+{
+	clear: both;
+	display: inline;
+	width: auto;
+	height: 22px;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	list-style: none;
+	background-color: #F4F4F4;
+}
+
+.ToolBarPager div ul li
+{
+	display: inline;
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+}
+
+.ToolBarPager li.Separator
+{
+	width: 2px;
+}
+
+.ToolBarPager li.Separator img
+{
+	float: left;
+	width: 2px;
+	padding-top: 3px;
+	padding-left: 1px;
+}
+
+.ToolBarPager li a
+{
+	display: block;
+	float: left;
+	width: auto;
+	height: 16px;
+	padding: 1px 2px 1px 2px;
+	border: solid 1px #F4F4F4;
+	margin: 1px 0px 0px 1px;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+.ToolBarPager li a:hover
+{
+	display: block;
+	float: left;
+	width: auto;
+	height: 16px;
+	padding: 1px 2px 1px 2px;
+	border: solid 1px #C8C8C8;
+	margin: 1px 0px 0px 1px;
+	text-decoration: underline;
+	white-space: nowrap;
+	background-color: #E9E9E9;
+}
+
+.ToolBarPager li a:hover[disabled]
+{
+	display: block;
+	float: left;
+	width: auto;
+	height: 16px;
+	padding: 1px 2px 1px 2px;
+	border: solid 1px #F4F4F4;
+	margin: 1px 0px 0px 1px;
+	text-decoration: underline;
+	white-space: nowrap;
+	background-color: #F4F4F4;
+}
+
+.ToolBarPager li a img
+{
+	width: 16px;
+	height: 16px;
+	margin-right: 0px;
+	margin-left: 0px;
+}

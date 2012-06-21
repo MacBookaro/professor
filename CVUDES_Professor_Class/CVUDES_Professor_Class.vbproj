@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{B24F8156-A9F7-4EA7-98FB-8D366C4BD6F2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CVUDES_Professor_Class</RootNamespace>
+    <AssemblyName>CVUDES_Professor_Class</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CVUDES_Professor_Class.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CVUDES_Professor_Class.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Exabitt.License">
+      <HintPath>..\Libraries\Exabitt\Exabitt.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Exabitt.Manager.Applications">
+      <HintPath>..\Libraries\Exabitt\Exabitt.Manager.Applications.dll</HintPath>
+    </Reference>
+    <Reference Include="Exabitt.Manager.Tracing">
+      <HintPath>..\Libraries\Exabitt\Exabitt.Manager.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="Exabitt.Manager.Users">
+      <HintPath>..\Libraries\Exabitt\Exabitt.Manager.Users.dll</HintPath>
+    </Reference>
+    <Reference Include="Exabitt.Manager.UserSession">
+      <HintPath>..\Libraries\Exabitt\Exabitt.Manager.UserSession.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\Libraries\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Exabitt" />
+    <Import Include="Exabitt.License" />
+    <Import Include="Exabitt.Manager" />
+    <Import Include="Exabitt.Manager.Applications" />
+    <Import Include="Exabitt.Manager.Tracing" />
+    <Import Include="Exabitt.Manager.Users" />
+    <Import Include="Exabitt.Manager.UserSession" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbroadProfessors\AbroadProfessor.vb" />
+    <Compile Include="AbroadProfessors\AbroadProfessorHandler.vb" />
+    <Compile Include="AbroadProfessors\AbroadProfessors.vb" />
+    <Compile Include="AcademicNetworksByUsers\AcademicNetworksByUser.vb" />
+    <Compile Include="AcademicNetworksByUsers\AcademicNetworksByUserHandler.vb" />
+    <Compile Include="AcademicNetworksByUsers\AcademicNetworksByUsers.vb" />
+    <Compile Include="AcademicNetworks\AcademicNetwork.vb" />
+    <Compile Include="AcademicNetworks\AcademicNetworkHandler.vb" />
+    <Compile Include="AcademicNetworks\AcademicNetworks.vb" />
+    <Compile Include="AdministrativeInformation\AdministrativeInformation.vb" />
+    <Compile Include="AdministrativeInformation\AdministrativeInformationHandler.vb" />
+    <Compile Include="AdministrativeInformation\AdministrativeInformations.vb" />
+    <Compile Include="Cities\Cities.vb" />
+    <Compile Include="Cities\City.vb" />
+    <Compile Include="Cities\CityHandler.vb" />
+    <Compile Include="ContractTypes\ContractType.vb" />
+    <Compile Include="ContractTypes\ContractTypeHandler.vb" />
+    <Compile Include="ContractTypes\ContractTypes.vb" />
+    <Compile Include="Countries\Countries.vb" />
+    <Compile Include="Countries\Country.vb" />
+    <Compile Include="Countries\CountryHandler.vb" />
+    <Compile Include="CourseNonformalTypes\CourseNonformalType.vb" />
+    <Compile Include="CourseNonformalTypes\CourseNonformalTypeHandler.vb" />
+    <Compile Include="CourseNonformalTypes\CourseNonformalTypes.vb" />
+    <Compile Include="CourseTopics\CourseTopic.vb" />
+    <Compile Include="CourseTopics\CourseTopicHandler.vb" />
+    <Compile Include="CourseTopics\CourseTopics.vb" />
+    <Compile Include="DedicationProfessorType\DedicationProfessorType.vb" />
+    <Compile Include="DedicationProfessorType\DedicationProfessorTypeHandler.vb" />
+    <Compile Include="DedicationProfessorType\DedicationProfessorTypes.vb" />
+    <Compile Include="DropsManager\DropManager.vb" />
+    <Compile Include="FromAbroadProfessor\FromAbroadProfessor.vb" />
+    <Compile Include="FromAbroadProfessor\FromAbroadProfessorHandler.vb" />
+    <Compile Include="FromAbroadProfessor\FromAbroadProfessors.vb" />
+    <Compile Include="FundingIesTypes\FundingIesType.vb" />
+    <Compile Include="FundingIesTypes\FundingIesTypeHandler.vb" />
+    <Compile Include="FundingIesTypes\FundingIesTypes.vb" />
+    <Compile Include="FundingSource\FundingSource.vb" />
+    <Compile Include="FundingSource\FundingSourceHandler.vb" />
+    <Compile Include="FundingSource\FundingSources.vb" />
+    <Compile Include="FundingTypes\FundingType.vb" />
+    <Compile Include="FundingTypes\FundingTypeHandler.vb" />
+    <Compile Include="FundingTypes\FundingTypes.vb" />
+    <Compile Include="Gender\Gender.vb" />
+    <Compile Include="Gender\GenderHandler.vb" />
+    <Compile Include="Gender\Genders.vb" />
+    <Compile Include="IdentificationDocumentTypes\IdentificationDocumentType.vb" />
+    <Compile Include="IdentificationDocumentTypes\IdentificationDocumentTypeHandler.vb" />
+    <Compile Include="IdentificationDocumentTypes\IdentificationDocumentTypes.vb" />
+    <Compile Include="Ies\Ies.vb" />
+    <Compile Include="Ies\IesHandler.vb" />
+    <Compile Include="Ies\Iess.vb" />
+    <Compile Include="KnowledgeArea\KnowledgeArea.vb" />
+    <Compile Include="KnowledgeArea\KnowledgeAreaHandler.vb" />
+    <Compile Include="KnowledgeArea\KnowledgeAreas.vb" />
+    <Compile Include="MaritalStatusTypes\MaritalStatusType.vb" />
+    <Compile Include="MaritalStatusTypes\MaritalStatusTypeHandler.vb" />
+    <Compile Include="MaritalStatusTypes\MaritalStatusTypes.vb" />
+    <Compile Include="MobilityTypes\MobilityType.vb" />
+    <Compile Include="MobilityTypes\MobilityTypeHandler.vb" />
+    <Compile Include="MobilityTypes\MobilityTypes.vb" />
+    <Compile Include="Modalities\Modalities.vb" />
+    <Compile Include="Modalities\Modality.vb" />
+    <Compile Include="Modalities\ModalityHandler.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Nbcs\Nbc.vb" />
+    <Compile Include="Nbcs\NbcHandler.vb" />
+    <Compile Include="Nbcs\Nbcs.vb" />
+    <Compile Include="OrganizationalUnitTypes\OrganizationalUnitType.vb" />
+    <Compile Include="OrganizationalUnitTypes\OrganizationalUnitTypeHandler.vb" />
+    <Compile Include="OrganizationalUnitTypes\OrganizationalUnitTypes.vb" />
+    <Compile Include="Programs\Program.vb" />
+    <Compile Include="Programs\ProgramHandler.vb" />
+    <Compile Include="Programs\Programs.vb" />
+    <Compile Include="PublicationsByProfessor\PublicationsByProfessor.vb" />
+    <Compile Include="PublicationsByProfessor\PublicationsByProfessorHandler.vb" />
+    <Compile Include="PublicationsByProfessor\PublicationsByProfessors.vb" />
+    <Compile Include="PublicationTypes\PublicationType.vb" />
+    <Compile Include="PublicationTypes\PublicationTypeHandler.vb" />
+    <Compile Include="PublicationTypes\PublicationTypes.vb" />
+    <Compile Include="Regions\Region.vb" />
+    <Compile Include="Regions\RegionHandler.vb" />
+    <Compile Include="Regions\Regions.vb" />
+    <Compile Include="RolesByUsers\RolesByUser.vb" />
+    <Compile Include="RolesByUsers\RolesByUserHandler.vb" />
+    <Compile Include="RolesByUsers\RolesByUsers.vb" />
+    <Compile Include="Roles\Role.vb" />
+    <Compile Include="Roles\RoleHandler.vb" />
+    <Compile Include="Roles\Roles.vb" />
+    <Compile Include="Sectionals\Sectional.vb" />
+    <Compile Include="Sectionals\SectionalHandler.vb" />
+    <Compile Include="Sectionals\Sectionals.vb" />
+    <Compile Include="StateUserTypes\StateUserType.vb" />
+    <Compile Include="StateUserTypes\StateUserTypeHandler.vb" />
+    <Compile Include="StateUserTypes\StateUserTypes.vb" />
+    <Compile Include="StudyLevels\StudyLevel.vb" />
+    <Compile Include="StudyLevels\StudyLevelHandler.vb" />
+    <Compile Include="StudyLevels\StudyLevels.vb" />
+    <Compile Include="SupportsByUsers\SupportsByUser.vb" />
+    <Compile Include="SupportsByUsers\SupportsByUserHandler.vb" />
+    <Compile Include="SupportsByUsers\SupportsByUsers.vb" />
+    <Compile Include="TrainingFormalByProfessors\TrainingFormalByProfessor.vb" />
+    <Compile Include="TrainingFormalByProfessors\TrainingFormalByProfessorHandler.vb" />
+    <Compile Include="TrainingFormalByProfessors\TrainingFormalByProfessors.vb" />
+    <Compile Include="TrainingInformalByProfessors\TrainingInformalByProfessor.vb" />
+    <Compile Include="TrainingInformalByProfessors\TrainingInformalByProfessorHandler.vb" />
+    <Compile Include="TrainingInformalByProfessors\TrainingInformalByProfessors.vb" />
+    <Compile Include="TrainingTypes\TrainingType.vb" />
+    <Compile Include="TrainingTypes\TrainingTypeHandler.vb" />
+    <Compile Include="TrainingTypes\TrainingTypes.vb" />
+    <Compile Include="Users\User.vb" />
+    <Compile Include="Users\UserHandler.vb" />
+    <Compile Include="Users\Users.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

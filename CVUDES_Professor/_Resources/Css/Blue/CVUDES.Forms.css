@@ -1,0 +1,229 @@
+﻿/* FORM */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+select
+{
+	color: #333333;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+select.Small
+{
+	width: 232px;
+}
+
+select.SmallL
+{
+	width: 232px;
+	margin-right: 5px;
+}
+
+select.Medium
+{
+	width: 469px;
+}
+select.MediumL
+{
+	width: 469px;
+	margin-right: 5px;
+}
+
+select.Large
+{
+	width: 703px;
+}
+
+input
+{
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+input.Small
+{
+	width: 226px;
+}
+
+input.SmallL
+{
+	width: 226px;
+	margin-right: 5px;
+}
+
+input.Medium
+{
+	width: 463px;
+}
+
+input.MediumL
+{
+	width: 463px;
+	margin-right: 5px;
+}
+
+input.Large
+{
+	width: 700px;
+}
+
+textarea
+{
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+textarea.Large
+{
+	width: 700px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.FormLayout
+{
+	border: 0;
+	border-top: 1px solid #C8C8C8;
+}
+
+.FormLayout th
+{
+	width: 225px;
+	min-height: 70px;
+	font-weight: normal;
+	text-align: left;
+	font-size: 11px;
+	vertical-align: top;
+	border-bottom: 1px solid #C8C8C8;
+	color: #505050;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
+.FormLayout td
+{
+	vertical-align: top;
+	border-bottom: 1px solid #C8C8C8;
+	background-color: #F6F6F6;
+	color: #505050;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
+.FormLayout Table
+{
+	width: 100%;
+}
+
+.FormLayout table td
+{
+	vertical-align: middle;
+	border: 0px solid #F6F6F6;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	margin: 0;
+	text-align: left;
+}
+
+.FormLayout table td.Sep
+{
+	width: 5px;
+	white-space: nowrap;
+}
+
+.FormLayout .SectionTitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #505050;
+	font-weight: bold;
+	display: block;
+}
+
+.FormLayoutButtons
+{
+	margin-top: 2px;
+	border: 1px solid #C8C8C8;
+	padding: 2px;
+	vertical-align: top;
+	text-align: right;
+}
+
+.FormLayoutButtons span
+{
+	float: left;
+}
+
+.MessageContainer1
+{
+	margin-top: 2px;
+	border: 1px solid #D8000C;
+	padding: 2px;
+	vertical-align: top;
+	background-color: #FFBABA;
+	font-weight: bold;
+}
+
+.MessageContainer1 TD
+{
+	background-color: #FFBABA;
+}
+
+.MessageContainer2
+{
+	color: Black;
+	margin-top: 2px;
+	border: 1px solid #4F8A10;
+	padding: 2px;
+	vertical-align: top;
+	background-color: #DFF2BF;
+	font-weight: bold;
+}
+
+.MessageContainer2 TD
+{
+	background-color: #DFF2BF;
+}
+
+.MessageContainer3
+{
+	color: Black;
+	margin-top: 2px;
+	border: 1px solid #C0C0A3;
+	padding: 2px;
+	vertical-align: top;
+	background-color: #FFFFCC;
+	font-weight: bold;
+}
+
+.MessageContainer3 TD
+{
+	background-color: #FFFFCC;
+}
+
+.TableInFormLayout
+{
+	padding: 10px;
+	border: 1px solid #C8C8C8; 
+	background-color: #FFFFCC;	
+}
+
+.TableInFormLayout td
+{ 
+	background-color: #FFFFCC;	
+}
+
+.TableInFormLayoutAlternate
+{
+	padding: 10px;
+	border: 1px solid #C8C8C8; 
+	background-color: #ECEBEA;	
+}
+
+.TableInFormLayoutAlternate td
+{ 
+	background-color: #ECEBEA;	
+}

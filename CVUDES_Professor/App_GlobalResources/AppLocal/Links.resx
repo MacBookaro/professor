@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lnkActivations" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Activaciones programadas'&gt;Activaciones programadas</value>
+  </data>
+  <data name="lnkActivationsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Nueva activación'&gt;Nueva activación</value>
+  </data>
+  <data name="lnkActivationsExecute" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/ActivationsExecute.gif alt='Ejecutar proceso de activaciones'&gt;Ejecutar proceso de activaciones</value>
+  </data>
+  <data name="lnkAssessments" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Evaluaciones'&gt;Evaluaciones</value>
+  </data>
+  <data name="lnkAssessmentSchemes" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Esquemas de evaluaciones'&gt;Esquemas de evaluaciones</value>
+  </data>
+  <data name="lnkAssessmentSchemesCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Nuevo esquema'&gt;Nuevo esquema</value>
+  </data>
+  <data name="lnkAssessmentsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear evaluación'&gt;Crear evaluación</value>
+  </data>
+  <data name="lnkCertificationGrades" xml:space="preserve">
+    <value>Certificado de notas</value>
+  </data>
+  <data name="lnkCertificationPayments" xml:space="preserve">
+    <value>Certificado de pagos</value>
+  </data>
+  <data name="lnkContinue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="lnkEBookDocuments" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Documentos anexos'&gt;Documentos anexos</value>
+  </data>
+  <data name="lnkEBookDocumentsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear documento anexo'&gt;Crear documento anexo</value>
+  </data>
+  <data name="lnkEBookDocumentsSearch" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar documentos anexos'&gt;Buscar documentos anexos</value>
+  </data>
+  <data name="lnkEBookLinks" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Links temáticos'&gt;Links temáticos</value>
+  </data>
+  <data name="lnkEBookLinksCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear link temático'&gt;Crear link temático</value>
+  </data>
+  <data name="lnkEBookLinksSearch" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar links temáticos'&gt;Buscar links temáticos</value>
+  </data>
+  <data name="lnkEBooks" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Libros electrónicos'&gt;Libros electrónicos</value>
+  </data>
+  <data name="lnkEBooksCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear libro electrónico'&gt;Crear libro electrónico</value>
+  </data>
+  <data name="lnkEBooksDelete" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Delete.gif alt='Borrar libro electrónico'&gt;Borrar libro electrónico</value>
+  </data>
+  <data name="lnkEBooksEdit" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Edit.gif alt='Editar libro electrónico'&gt;Editar libro electrónico</value>
+  </data>
+  <data name="lnkEBooksGridView" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/GridView.gif alt='Ver libros electrónicos'&gt;Ver libros electrónicos</value>
+  </data>
+  <data name="lnkEBooksSearch" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar libros electrónicos'&gt;Buscar libros electrónicos</value>
+  </data>
+  <data name="lnkEnrolledProfessors" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Asignación de profesores'&gt;Asignación de profesores</value>
+  </data>
+  <data name="lnkEnrolledPrograms" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Programas matriculados'&gt;Programas matriculados</value>
+  </data>
+  <data name="lnkEnrolledSubjects" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Módulos matriculados'&gt;Módulos matriculados</value>
+  </data>
+  <data name="lnkEnrolledTutors" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Asignación de tutores'&gt;Asignación de tutores</value>
+  </data>
+  <data name="lnkEnrollments" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Matrículas'&gt;Matrículas</value>
+  </data>
+  <data name="lnkGroups" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Grupos'&gt;Grupos</value>
+  </data>
+  <data name="lnkGroupSchedules" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Programaciones de grupos'&gt;Programaciones de grupos</value>
+  </data>
+  <data name="lnkGroupSchedulesCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear programación'&gt;Crear programación</value>
+  </data>
+  <data name="lnkGroupsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear grupo'&gt;Crear grupo</value>
+  </data>
+  <data name="lnkGroupsDelete" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Delete.gif alt='Borrar grupo'&gt;Borrar grupo</value>
+  </data>
+  <data name="lnkGroupsEdit" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Edit.gif alt='Editar grupo'&gt;Editar grupo</value>
+  </data>
+  <data name="lnkGroupsGridView" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/GridView.gif alt='Ver grupos'&gt;Ver grupos</value>
+  </data>
+  <data name="lnkGroupsSearch" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar grupos'&gt;Buscar grupos</value>
+  </data>
+  <data name="lnkLearningScheduleDays" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Días de agenda de avance'&gt;Días de agenda de avance</value>
+  </data>
+  <data name="lnkLearningScheduleDaysCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear día de agenda de avance'&gt;Crear día de agenda de avance</value>
+  </data>
+  <data name="lnkLearningSchedules" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Agendas de avance'&gt;Agendas de avance</value>
+  </data>
+  <data name="lnkLearningSchedulesCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear agenda de avance'&gt;Crear agenda de avance</value>
+  </data>
+  <data name="lnkLearningSchedulesDelete" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Delete.gif alt='Borrar agenda de avance'&gt;Borrar agenda de avance</value>
+  </data>
+  <data name="lnkLearningSchedulesEdit" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Edit.gif alt='Editar agenda de avance'&gt;Editar agenda de avance</value>
+  </data>
+  <data name="lnkLearningSchedulesGridView" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/GridView.gif alt='Ver agendas de avance'&gt;Ver agendas de avance</value>
+  </data>
+  <data name="lnkLearningSchedulesSearch" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar agendas de avance'&gt;Buscar agendas de avance</value>
+  </data>
+  <data name="lnkProfessors" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Profesores'&gt;Profesores</value>
+  </data>
+  <data name="lnkProfessorsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear profesor'&gt;Crear profesor</value>
+  </data>
+  <data name="lnkProfessorsDelete" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Delete.gif alt='Borrar profesor'&gt;Borrar profesor</value>
+  </data>
+  <data name="lnkProfessorsEdit" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Edit.gif alt='Editar profesor'&gt;Editar profesor</value>
+  </data>
+  <data name="lnkProfessorsGridView" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/GridView.gif alt='Ver profesores'&gt;Ver profesores</value>
+  </data>
+  <data name="lnkProfessorsSearch" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar profesores'&gt;Buscar profesores</value>
+  </data>
+  <data name="lnkProfessorSubjects" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Módulos asignados'&gt;Módulos asignados</value>
+  </data>
+  <data name="lnkProgramCategories" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Categorías'&gt;Categorías</value>
+  </data>
+  <data name="lnkProgramCategoriesCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear categoría'&gt;Crear categoría</value>
+  </data>
+  <data name="lnkPrograms" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Programas'&gt;Programas</value>
+  </data>
+  <data name="lnkProgramsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear programa'&gt;Crear programa</value>
+  </data>
+  <data name="lnkProgramsDelete" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Delete.gif alt='Borrar programa'&gt;Borrar programa</value>
+  </data>
+  <data name="lnkProgramsEdit" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Edit.gif alt='Editar programa'&gt;Editar programa</value>
+  </data>
+  <data name="lnkProgramsGridView" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/GridView.gif alt='Ver programas'&gt;Ver programas</value>
+  </data>
+  <data name="lnkProgramsSearch" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar programas'&gt;Buscar programas</value>
+  </data>
+  <data name="lnkRegistrations" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Inscripciones'&gt;Inscripciones</value>
+  </data>
+  <data name="lnkRegistrationsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Nueva inscripción'&gt;Nueva inscripción</value>
+  </data>
+  <data name="lnkRegistrationsSearch" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar inscripciones'&gt;Buscar inscripciones</value>
+  </data>
+  <data name="lnkStudents" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Estudiantes'&gt;Estudiantes</value>
+  </data>
+  <data name="lnkStudentsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear estudiante'&gt;Crear estudiante</value>
+  </data>
+  <data name="lnkStudentsDelete" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Delete.gif alt='Borrar estudiante'&gt;Borrar estudiante</value>
+  </data>
+  <data name="lnkStudentsEdit" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Edit.gif alt='Editar estudiante'&gt;Editar estudiante</value>
+  </data>
+  <data name="lnkStudentsGridView" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/GridView.gif alt='Ver estudiantes'&gt;Ver estudiantes</value>
+  </data>
+  <data name="lnkStudentsSearch" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar estudiantes'&gt;Buscar estudiantes</value>
+  </data>
+  <data name="lnkStudentSubjectOrderItems" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Detalles de la órden'&gt;Detalles de la órden</value>
+  </data>
+  <data name="lnkStudentSubjectOrderItemsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Agregar módulos'&gt;Agregar módulos</value>
+  </data>
+  <data name="lnkStudentSubjectOrders" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Ordenes de compra'&gt;Ordenes de compra</value>
+  </data>
+  <data name="lnkStudentSubjectOrdersCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear órden de compra'&gt;Crear órden de compra</value>
+  </data>
+  <data name="lnkStudentSubjectOrdersDelete" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Delete.gif alt='Borrar profesor'&gt;Borrar órden de compra</value>
+  </data>
+  <data name="lnkStudentSubjectOrdersEdit" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Edit.gif alt='Editar profesor'&gt;Editar órden de compra</value>
+  </data>
+  <data name="lnkStudentSubjectOrdersGridView" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/GridView.gif alt='Ver profesores'&gt;Ver ordenes de compra</value>
+  </data>
+  <data name="lnkStudentSubjectOrdersSearch" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar ordenes'&gt;Buscar ordenes</value>
+  </data>
+  <data name="lnkStudentSubjectOrdersUpdater" xml:space="preserve">
+    <value>Actualizar ahora</value>
+  </data>
+  <data name="lnkStudentSubjects" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Módulos'&gt;Módulos</value>
+  </data>
+  <data name="lnkStudentSyllabuses" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Planes de estudio'&gt;Planes de estudio</value>
+  </data>
+  <data name="lnkStudentSyllabusesCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Asignar plan de estudio'&gt;Asignar plan de estudio</value>
+  </data>
+  <data name="lnkSubjectEBooksCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Asignar libro electrónico'&gt;Asignar libro electrónico</value>
+  </data>
+  <data name="lnkSubjectProfessorsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Asignar módulo'&gt;Asignar módulo</value>
+  </data>
+  <data name="lnkSubjects" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Módulos'&gt;Módulos</value>
+  </data>
+  <data name="lnkSubjectsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear módulo'&gt;Crear módulo</value>
+  </data>
+  <data name="lnkSubjectsCreate_Off" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create_Off.gif alt='Crear módulo'&gt;Crear módulo</value>
+  </data>
+  <data name="lnkSubjectsDelete" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Delete.gif alt='Borrar módulo'&gt;Borrar módulo</value>
+  </data>
+  <data name="lnkSubjectsDelete_Off" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Delete_Off.gif alt='Borrar módulo'&gt;Borrar módulo</value>
+  </data>
+  <data name="lnkSubjectsEdit" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Edit.gif alt='Editar módulo'&gt;Editar módulo</value>
+  </data>
+  <data name="lnkSubjectsEdit_Off" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Edit_Off.gif alt='Editar módulo'&gt;Editar módulo</value>
+  </data>
+  <data name="lnkSubjectsGridView" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/GridView.gif alt='Ver módulos'&gt;Ver módulos</value>
+  </data>
+  <data name="lnkSubjectsSearch" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar módulos'&gt;Buscar módulos</value>
+  </data>
+  <data name="lnkSubjectTutorsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Asignar módulo'&gt;Asignar módulo</value>
+  </data>
+  <data name="lnkSyllabuses" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Planes de estudio'&gt;Planes de estudio</value>
+  </data>
+  <data name="lnkSyllabusesCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear plan de estudio'&gt;Crear plan de estudio</value>
+  </data>
+  <data name="lnkSyllabusesDelete" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Delete.gif alt='Borrar plan de estudio'&gt;Borrar plan de estudio</value>
+  </data>
+  <data name="lnkSyllabusesEdit" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Edit.gif alt='Editar plan de estudio'&gt;Editar plan de estudio</value>
+  </data>
+  <data name="lnkSyllabusesGridView" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/GridView.gif alt='Ver planes de estudio'&gt;Ver planes de estudio</value>
+  </data>
+  <data name="lnkSyllabusesSearch" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar planes de estudio'&gt;Buscar planes de estudio</value>
+  </data>
+  <data name="lnkSyllabusLevels" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Niveles'&gt;Niveles</value>
+  </data>
+  <data name="lnkSyllabusLevelsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear nivel'&gt;Crear nivel</value>
+  </data>
+  <data name="lnkSyllabusSubjects" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Módulos'&gt;Módulos</value>
+  </data>
+  <data name="lnkSyllabusSubjectsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Asignar módulo'&gt;Asignar módulo</value>
+  </data>
+  <data name="lnkTutors" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Tutores'&gt;Tutores</value>
+  </data>
+  <data name="lnkTutorsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear tutor'&gt;Crear tutor</value>
+  </data>
+  <data name="lnkTutorsDelete" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Delete.gif alt='Borrar tutor'&gt;Borrar tutor</value>
+  </data>
+  <data name="lnkTutorsEdit" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Edit.gif alt='Editar tutor'&gt;Editar tutor</value>
+  </data>
+  <data name="lnkTutorsGridView" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/GridView.gif alt='Ver tutores'&gt;Ver tutores</value>
+  </data>
+  <data name="lnkTutorsSearch" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar tutores'&gt;Buscar tutores</value>
+  </data>
+  <data name="lnkTutorSubjects" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Módulos asignados'&gt;Módulos asignados</value>
+  </data>
+  <data name="lnkUserGroups" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Grupos'&gt;Grupos</value>
+  </data>
+  <data name="lnkUserGroupsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Asignar grupo'&gt;Asignar grupo</value>
+  </data>
+  <data name="lnkUserRolesCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Asignar rol'&gt;Asignar rol</value>
+  </data>
+  <data name="lnkUsers" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Usuarios'&gt;Usuarios</value>
+  </data>
+  <data name="lnkUsersCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear usuario'&gt;Crear usuario</value>
+  </data>
+  <data name="lnkUsersDelete" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Delete.gif alt='Borrar usuario'&gt;Borrar usuario</value>
+  </data>
+  <data name="lnkUsersEdit" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Edit.gif alt='Editar usuario'&gt;Editar usuario</value>
+  </data>
+  <data name="lnkUserSessions" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Sesiones en el aula'&gt;Sesiones en el aula</value>
+  </data>
+  <data name="lnkUsersGridView" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/GridView.gif alt='Ver usuarios'&gt;Ver usuarios</value>
+  </data>
+  <data name="lnkUsersRoles" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Roles'&gt;Roles</value>
+  </data>
+  <data name="lnkUsersSearch" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar usuarios'&gt;Buscar usuarios</value>
+  </data>
+  <data name="lnkUsersSessions" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Sesiones'&gt;Sesiones</value>
+  </data>
+  <data name="lnkUsersWebContents" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Contenidos Web'&gt;Contenidos Web</value>
+  </data>
+  <data name="lnkUsersWebDocuments" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Documentos Web'&gt;Documentos Web</value>
+  </data>
+  <data name="lnkViewProfile" xml:space="preserve">
+    <value>Ver perfil</value>
+  </data>
+  <data name="lnkTransfersStudentsCreate" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear Traspaso de Estudiante'&gt;Crear Traspaso de Estudiante   </value>
+  </data>
+  <data name="lnkGroupSchedulesRegister" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/ActivationsExecute.gif alt='Matricular Grupo'&gt;Matricular Grupo</value>
+  </data>
+  <data name="lnkRegister" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Group_gear.png alt='Matricular Grupo'&gt;Matricular Grupo</value>
+  </data>
+  <data name="lnkPasswordReset" xml:space="preserve">
+    <value>¿Ha olvidado su contraseña?</value>
+  </data>
+  <data name="lnkRegistreceAqui" xml:space="preserve">
+    <value>&lt;a href="/Public/Register/PreRegister.aspx" id="Registrece" &gt;Registrece Aquí&lt;/a&gt;</value>
+  </data>
+  <data name="lnkSignOut" xml:space="preserve">
+    <value>Cerrar Sesión</value>
+  </data>
+  <data name="lnkSignIn" xml:space="preserve">
+    <value>Iniciar Sesión</value>
+  </data>
+  <data name="lnkAppUsers" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Usuarios'&gt;Usuarios</value>
+  </data>
+  <data name="lnkAppUsers_Search" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Buscar Usuarios'&gt;Buscar Usuarios</value>
+  </data>
+  <data name="lnkAppUsers_Sessions" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Sesiones'&gt;Sesiones</value>
+  </data>
+  <data name="lnkApp_ErrorEvents" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Eventos de Error'&gt;Eventos de Error</value>
+  </data>
+  <data name="lnkApp_TraceEvents" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Eventos de Seguimiento'&gt;Eventos de Seguimiento</value>
+  </data>
+  <data name="lnkResourceFilesLocal" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Recursos Locales'&gt;Archivos de Recursos Locales</value>
+  </data>
+  <data name="lnkResourceFilesShared" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Recursos Compartidos'&gt;Archivos de Recursos Compartidos</value>
+  </data>
+  <data name="lnkCoursesAndTraining" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Cursos y Capacitaciones'&gt;Cursos y Capacitaciones</value>
+  </data>
+  <data name="lnkDocumentsAndSupports" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Documentos y Soportes'&gt;Documentos y Soportes</value>
+  </data>
+  <data name="lnkExperience" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Experiencia Laboral'&gt;Experiencia Laboral</value>
+  </data>
+  <data name="lnkForeingTravels" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Viajes al Exterior'&gt;Viajes al Exterior</value>
+  </data>
+  <data name="lnkPersonalData" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Datos Personales'&gt;Datos Personales</value>
+  </data>
+  <data name="lnkPublicationsAndOthers" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Publicaciones y Otros'&gt;Publicaciones y Otros</value>
+  </data>
+  <data name="lnkVocationalTraining" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Formación Profesional'&gt;Formación Profesional Académica</value>
+  </data>
+  <data name="lnkAppLoadingInfoAdmin" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Cargar Informaci&amp;oacute;n Admin.EXCEL'&gt;Cargar Informaci&amp;oacute;n Admin EXCEL.</value>
+  </data>
+  <data name="lnkAppLoadingProfessor" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Cargar Docentes EXCEL'&gt;Cargar Docentes EXCEL</value>
+  </data>
+  <data name="lnkAppProfessor" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Docente'&gt;Docentes</value>
+  </data>
+  <data name="lnkAppReports" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Folder.gif alt='Reporets SNIES'&gt;Reportes SNIES</value>
+  </data>
+  <data name="lnkHome" xml:space="preserve">
+    <value>&lt;img src=/_Resources/Icons/Home.gif alt='Ir al inicio'&gt;Ir al inicio</value>
+  </data>
+</root>

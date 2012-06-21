@@ -1,0 +1,121 @@
+﻿.ToolBar
+{
+	width: auto;
+	height: 22px;
+	border: solid 1px #C8C8C8;
+	margin-bottom: 2px;
+	background-color: #F4F4F4;
+}
+
+.ToolBar ul
+{
+	clear: both;
+	display:inline;
+	float: left;
+	width: auto;
+	height: 22px;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	list-style: none;
+	background-color: #F4F4F4;
+}
+
+.ToolBar ul li
+{
+	display: inline;
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+}
+
+.ToolBar ul li.Separator
+{
+	width: 2px;
+}
+
+.ToolBar ul li.Separator img
+{
+	float: left;
+	width: 2px;
+	padding-top: 3px;
+	padding-left: 1px;
+}
+
+.ToolBar ul li a
+{
+	display: block;
+	float: left;
+	width: auto;
+	height: 16px;
+	padding: 1px 8px 1px 6px;
+	border: solid 1px #F4F4F4;
+	margin: 1px 1px 1px 1px;
+	color: #505050;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+.ToolBar ul li a:hover[disabled]
+{
+	display: block;
+	float: left;
+	width: auto;
+	height: 16px;
+	padding: 1px 8px 1px 6px;
+	border: solid 1px #F4F4F4;
+	margin: 1px 1px 1px 1px;
+	color: #505050;
+	text-decoration: underline;
+	white-space: nowrap;
+	background-color: #F4F4F4;	
+}
+
+.ToolBar ul li a:hover
+{
+	display: block;
+	float: left;
+	width: auto;
+	height: 16px;
+	padding: 1px 8px 1px 6px;
+	border: solid 1px #C8C8C8;
+	margin: 1px 1px 1px 1px;
+	color: #505050;
+	text-decoration: underline;
+	white-space: nowrap;
+	background-color: #E9E9E9;
+}
+
+.ToolBar ul li a img
+{
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
+	margin-left: 0px;
+}
+
+.ToolBar ul li.ToolBarTitle
+{
+	float: left;
+	display: inline;
+	display: block;
+	padding: 3px 6px 1px 9px;
+	margin: 1px 0px 0px 1px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.ToolBar ul li.ToolBarTitle span
+{
+	float: left;
+	vertical-align: middle;
+}
+
+.ToolBar ul li.ToolBarQuickView a img
+{
+	width: 16px;
+	height: 16px;
+	margin-right: 0px;
+	margin-left: 0px;
+}

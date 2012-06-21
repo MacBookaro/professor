@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{4E4C20F3-8D52-4936-AA51-7079279CF142}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CVUDES_Professor</RootNamespace>
+    <AssemblyName>CVUDES_Professor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>CVUDES_Professor.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>CVUDES_Professor.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxezzWebGadgets, Version=1.0.2.1, Culture=neutral, PublicKeyToken=95238199671f15bb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AxezzWebGadgets.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="MetaBuilders.WebControls.ExpandingButtons, Version=1.1.5000.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\MetaBuilders.WebControls.ExpandingButtons.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Telerik.Web.UI, Version=2011.3.1305.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ControlPanel\Administrator\Default.aspx" />
+    <Content Include="ControlPanel\Coordinator\Default.aspx" />
+    <Content Include="ControlPanel\Coordinator\LoadingData\LoadingInformationAdmin.aspx" />
+    <Content Include="ControlPanel\Coordinator\LoadingData\LoadingProfessor.aspx" />
+    <Content Include="ControlPanel\Coordinator\Professor\Default.aspx" />
+    <Content Include="ControlPanel\Coordinator\ReportSnies\Default.aspx" />
+    <Content Include="ControlPanel\Candidate\Default.aspx" />
+    <Content Include="ControlPanel\Default.aspx" />
+    <Content Include="ControlPanel\Professor\Default.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Public\ErrorMessage.aspx" />
+    <Content Include="Public\Recruitment\Default.aspx" />
+    <Content Include="Public\Register\Activation.aspx" />
+    <Content Include="Public\Register\Confirmation.aspx" />
+    <Content Include="Public\Register\Notification.aspx" />
+    <Content Include="Public\Register\PreRegister.aspx" />
+    <Content Include="Public\Register\Register.aspx" />
+    <Content Include="Public\Register\SendMail.aspx" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="SignOut.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="_AppControls\Footer.ascx" />
+    <Content Include="_AppControls\GridPager.ascx" />
+    <Content Include="_AppControls\Header.ascx" />
+    <Content Include="_AppControls\HeaderPublic.ascx" />
+    <Content Include="_Resources\Css\Blue\CVUDES.ActionMessage.css" />
+    <Content Include="_Resources\Css\Blue\CVUDES.Application.css" />
+    <Content Include="_Resources\Css\Blue\CVUDES.Elements.css" />
+    <Content Include="_Resources\Css\Blue\CVUDES.Forms.css" />
+    <Content Include="_Resources\Css\Blue\CVUDES.General.css" />
+    <Content Include="_Resources\Css\Blue\CVUDES.GridView.css" />
+    <Content Include="_Resources\Css\Blue\CVUDES.MainMenu.css" />
+    <Content Include="_Resources\Css\Blue\CVUDES.QuickView.css" />
+    <Content Include="_Resources\Css\Blue\CVUDES.ToolBar.css" />
+    <Content Include="_Resources\Css\Blue\CVUDES.ToolBarPager.css" />
+    <Content Include="_Resources\Css\Blue\CVUDES.VerticalToolBar.css" />
+    <Content Include="_Resources\Css\Blue\LinkSelector.css" />
+    <Content Include="_Resources\Css\CVUDES.css" />
+    <Content Include="_Resources\Css\CVUDES.EditorContentArea.css" />
+    <Content Include="_Resources\Css\IE6Hack.css" />
+    <Content Include="_Resources\Css\IE7Hack.css" />
+    <Content Include="_Resources\Css\Site.css" />
+    <Content Include="_Resources\Css\_CVUDES.Blue.css" />
+    <Content Include="_Resources\Icons\Actions.gif" />
+    <Content Include="_Resources\Icons\ActivationsExecute.gif" />
+    <Content Include="_Resources\Icons\Alert.gif" />
+    <Content Include="_Resources\Icons\AppErrorEvents.gif" />
+    <Content Include="_Resources\Icons\Applications.gif" />
+    <Content Include="_Resources\Icons\AppMessages.gif" />
+    <Content Include="_Resources\Icons\AppMessages_Create.gif" />
+    <Content Include="_Resources\Icons\AppRoles.gif" />
+    <Content Include="_Resources\Icons\AppUsers.gif" />
+    <Content Include="_Resources\Icons\AppUsers_Search.gif" />
+    <Content Include="_Resources\Icons\AppUsers_Sessions.gif" />
+    <Content Include="_Resources\Icons\AppUser_Activate.gif" />
+    <Content Include="_Resources\Icons\AppUser_Create.gif" />
+    <Content Include="_Resources\Icons\AppUser_Deactivate.gif" />
+    <Content Include="_Resources\Icons\AppUser_NoAccount.gif" />
+    <Content Include="_Resources\Icons\AppUser_NoEmail.gif" />
+    <Content Include="_Resources\Icons\AppUser_SetPwd.gif" />
+    <Content Include="_Resources\Icons\AppUser_VerifyEmail.gif" />
+    <Content Include="_Resources\Icons\AppUser_View.gif" />
+    <Content Include="_Resources\Icons\App_ErrorEvents.gif" />
+    <Content Include="_Resources\Icons\App_TraceEvents.gif" />
+    <Content Include="_Resources\Icons\Back.gif" />
+    <Content Include="_Resources\Icons\Calendar.gif" />
+    <Content Include="_Resources\Icons\Clip.gif" />
+    <Content Include="_Resources\Icons\CloseWindow.gif" />
+    <Content Include="_Resources\Icons\Create.gif" />
+    <Content Include="_Resources\Icons\Create_Off.gif" />
+    <Content Include="_Resources\Icons\Delete.gif" />
+    <Content Include="_Resources\Icons\Delete_Off.gif" />
+    <Content Include="_Resources\Icons\Duplicate.gif" />
+    <Content Include="_Resources\Icons\Edit.gif" />
+    <Content Include="_Resources\Icons\Edit_Off.gif" />
+    <Content Include="_Resources\Icons\ExportXLS.gif" />
+    <Content Include="_Resources\Icons\Filter.gif" />
+    <Content Include="_Resources\Icons\Filtered.gif" />
+    <Content Include="_Resources\Icons\FilterOptions.gif" />
+    <Content Include="_Resources\Icons\FilterOptions_Off.gif" />
+    <Content Include="_Resources\Icons\Filter_Off.gif" />
+    <Content Include="_Resources\Icons\Folder.gif" />
+    <Content Include="_Resources\Icons\GridView.gif" />
+    <Content Include="_Resources\Icons\Group_gear.png" />
+    <Content Include="_Resources\Icons\Group_link.png" />
+    <Content Include="_Resources\Icons\Hand.gif" />
+    <Content Include="_Resources\Icons\Home.gif" />
+    <Content Include="_Resources\Icons\Information_Blue.gif" />
+    <Content Include="_Resources\Icons\Information_Off.gif" />
+    <Content Include="_Resources\Icons\Lang_EN_GB.gif" />
+    <Content Include="_Resources\Icons\Lang_EN_US.gif" />
+    <Content Include="_Resources\Icons\Lang_ES_CO.gif" />
+    <Content Include="_Resources\Icons\Lang_ES_SP.gif" />
+    <Content Include="_Resources\Icons\Lang_FR_FR.gif" />
+    <Content Include="_Resources\Icons\MoveDown.gif" />
+    <Content Include="_Resources\Icons\MoveDown_Off.gif" />
+    <Content Include="_Resources\Icons\MoveUp.gif" />
+    <Content Include="_Resources\Icons\MoveUp_Off.gif" />
+    <Content Include="_Resources\Icons\MyInfo_Edit.gif" />
+    <Content Include="_Resources\Icons\MyInfo_SetPassword.gif" />
+    <Content Include="_Resources\Icons\Ok_Blue.gif" />
+    <Content Include="_Resources\Icons\Ok_Green.gif" />
+    <Content Include="_Resources\Icons\Pager_First.gif" />
+    <Content Include="_Resources\Icons\Pager_First_Off.gif" />
+    <Content Include="_Resources\Icons\Pager_Last.gif" />
+    <Content Include="_Resources\Icons\Pager_Last_Off.gif" />
+    <Content Include="_Resources\Icons\Pager_Next.gif" />
+    <Content Include="_Resources\Icons\Pager_Next_Off.gif" />
+    <Content Include="_Resources\Icons\Pager_Previous.gif" />
+    <Content Include="_Resources\Icons\Pager_Previous_Off.gif" />
+    <Content Include="_Resources\Icons\Print.gif" />
+    <Content Include="_Resources\Icons\Print_Off.gif" />
+    <Content Include="_Resources\Icons\Print_Report.gif" />
+    <Content Include="_Resources\Icons\Print_Report_Off.gif" />
+    <Content Include="_Resources\Icons\QuickView.gif" />
+    <Content Include="_Resources\Icons\QuickView_Big.png" />
+    <Content Include="_Resources\Icons\QuickView_Off.gif" />
+    <Content Include="_Resources\Icons\Search.gif" />
+    <Content Include="_Resources\Icons\TraceEvents.gif" />
+    <Content Include="_Resources\Icons\tranfers.png" />
+    <Content Include="_Resources\Icons\UserMessages.gif" />
+    <Content Include="_Resources\Icons\UserMessages_Create.gif" />
+    <Content Include="_Resources\Icons\UserPwdLogs.gif" />
+    <Content Include="_Resources\Icons\UserPwdResetEvents.gif" />
+    <Content Include="_Resources\Icons\UserPwdResetTickets.gif" />
+    <Content Include="_Resources\Icons\Users.gif" />
+    <Content Include="_Resources\Icons\UserSessions.gif" />
+    <Content Include="_Resources\Icons\Users_Create.gif" />
+    <Content Include="_Resources\Icons\Users_Create_Off.gif" />
+    <Content Include="_Resources\Icons\Users_Search.gif" />
+    <Content Include="_Resources\Icons\Users_SetPwd.gif" />
+    <Content Include="_Resources\Icons\View.gif" />
+    <Content Include="_Resources\Icons\View_Off.gif" />
+    <Content Include="_Resources\Icons\Warning_Red.gif" />
+    <Content Include="_Resources\Images\Alert_Confirm_Green.png" />
+    <Content Include="_Resources\Images\Alert_Error_Red.png" />
+    <Content Include="_Resources\Images\Alert_Question_Blue.png" />
+    <Content Include="_Resources\Images\Alert_Question_Orange.png" />
+    <Content Include="_Resources\Images\Alert_Question_Red.png" />
+    <Content Include="_Resources\Images\Busy.gif" />
+    <Content Include="_Resources\Images\Busy_Black.gif" />
+    <Content Include="_Resources\Images\Busy_Blue.gif" />
+    <Content Include="_Resources\Images\Busy_Green.gif" />
+    <Content Include="_Resources\Images\CellItemBgr.png" />
+    <Content Include="_Resources\Images\CellItemBgr2.png" />
+    <Content Include="_Resources\Images\CellItemBgr3.png" />
+    <Content Include="_Resources\Images\icono.ico" />
+    <Content Include="_Resources\Images\Logo.gif" />
+    <Content Include="_Resources\Images\LogoUDES.jpg" />
+    <Content Include="_Resources\Images\Main_Admin.png" />
+    <Content Include="_Resources\Images\Main_Common.png" />
+    <Content Include="_Resources\Images\Main_Help.png" />
+    <Content Include="_Resources\Images\Main_Related.png" />
+    <Content Include="_Resources\Images\Separator.gif" />
+    <Content Include="_Resources\Images\TabStripBottomLine.gif" />
+    <Content Include="_Resources\Images\TabStripBottomLineIE6.gif" />
+    <Content Include="_Resources\Images\User.png" />
+    <Content Include="_Resources\Images\www.cvudes.edu.co.gif" />
+    <Content Include="_Resources\Js\Common.js" />
+    <Content Include="_Resources\Logos\AppLogo_EN.gif" />
+    <Content Include="_Resources\Logos\AppLogo_ES.gif" />
+    <Content Include="_Resources\Templates\Blue\TabStrip\Ts.gif" />
+    <Content Include="_Resources\Templates\Blue\TabStrip\TsLeft.gif" />
+    <Content Include="_Resources\Templates\Blue\TabStrip\TsRight.gif" />
+    <Content Include="_Resources\Templates\Blue\TabStrip\TsSel.gif" />
+    <Content Include="_Resources\Templates\Blue\TabStrip\TsSelLeft.gif" />
+    <Content Include="_Resources\Templates\Blue\TabStrip\TsSelRight.gif" />
+    <Content Include="_Resources\Templates\Blue\Tabs\BarB.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\BarT.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\FBL.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\FBM.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\FBR.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\FML.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\FMR.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\FTL.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\FTM.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\FTR.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TabL.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TabLs.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TabM.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TabMenuHover.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TabMenuItem.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TabMenuL.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TabMenuR.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TabMenuSelected.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TabMs.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TabR.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TabRs.png" />
+    <Content Include="_Resources\Templates\Blue\Tabs\Ts.gif" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TsLeft.gif" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TsRight.gif" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TsSel.gif" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TsSelLeft.gif" />
+    <Content Include="_Resources\Templates\Blue\Tabs\TsSelRight.gif" />
+    <Content Include="_UserControls\MyInfo_View.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_GlobalResources\AppLocal\AppResources.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AppLocal\Buttons.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Buttons.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AppLocal\Links.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Links.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AppLocal\Tags.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tags.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AppLocal\Titles.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Titles.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AppLocal\Validators.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Validators.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AppShared\Links2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Links2.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AppShared\MailMessages.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MailMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AppShared\Messages.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AppShared\Strings.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AppShared\Titles2.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Titles2.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Administrator\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Administrator\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Coordinator\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Coordinator\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Coordinator\LoadingData\LoadingInformationAdmin.aspx.designer.vb">
+      <DependentUpon>LoadingInformationAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Coordinator\LoadingData\LoadingInformationAdmin.aspx.vb">
+      <DependentUpon>LoadingInformationAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Coordinator\LoadingData\LoadingProfessor.aspx.designer.vb">
+      <DependentUpon>LoadingProfessor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Coordinator\LoadingData\LoadingProfessor.aspx.vb">
+      <DependentUpon>LoadingProfessor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Coordinator\Professor\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Coordinator\Professor\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Coordinator\ReportSnies\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Coordinator\ReportSnies\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Candidate\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Candidate\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Professor\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Professor\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Public\ErrorMessage.aspx.designer.vb">
+      <DependentUpon>ErrorMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\ErrorMessage.aspx.vb">
+      <DependentUpon>ErrorMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Recruitment\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Recruitment\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Register\Activation.aspx.designer.vb">
+      <DependentUpon>Activation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Register\Activation.aspx.vb">
+      <DependentUpon>Activation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Register\Confirmation.aspx.designer.vb">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Register\Confirmation.aspx.vb">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Register\Notification.aspx.designer.vb">
+      <DependentUpon>Notification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Register\Notification.aspx.vb">
+      <DependentUpon>Notification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Register\PreRegister.aspx.designer.vb">
+      <DependentUpon>PreRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Register\PreRegister.aspx.vb">
+      <DependentUpon>PreRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Register\Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Register\Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Register\SendMail.aspx.designer.vb">
+      <DependentUpon>SendMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Register\SendMail.aspx.vb">
+      <DependentUpon>SendMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.vb">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.vb">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignOut.aspx.designer.vb">
+      <DependentUpon>SignOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignOut.aspx.vb">
+      <DependentUpon>SignOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_AppControls\Footer.ascx.designer.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="_AppControls\Footer.ascx.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_AppControls\GridPager.ascx.designer.vb">
+      <DependentUpon>GridPager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="_AppControls\GridPager.ascx.vb">
+      <DependentUpon>GridPager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_AppControls\Header.ascx.designer.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="_AppControls\Header.ascx.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_AppControls\HeaderPublic.ascx.designer.vb">
+      <DependentUpon>HeaderPublic.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="_AppControls\HeaderPublic.ascx.vb">
+      <DependentUpon>HeaderPublic.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_MasterPages\Default.Master.designer.vb">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="_MasterPages\Default.Master.vb">
+      <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_MasterPages\DefaultPublic.Master.designer.vb">
+      <DependentUpon>DefaultPublic.Master</DependentUpon>
+    </Compile>
+    <Compile Include="_MasterPages\DefaultPublic.Master.vb">
+      <DependentUpon>DefaultPublic.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_MasterPages\Form.Master.designer.vb">
+      <DependentUpon>Form.Master</DependentUpon>
+    </Compile>
+    <Compile Include="_MasterPages\Form.Master.vb">
+      <DependentUpon>Form.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_ModulesApp\DropsApp.vb" />
+    <Compile Include="_ModulesApp\ManagerFuntions.vb" />
+    <Compile Include="_ModulesApp\Urls.vb" />
+    <Compile Include="_ModulesApp\Utils.vb" />
+    <Compile Include="_UserControls\MyInfo_View.ascx.designer.vb">
+      <DependentUpon>MyInfo_View.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="_UserControls\MyInfo_View.ascx.vb">
+      <DependentUpon>MyInfo_View.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\AppLocal\AppResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AppResources.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AppLocal\Buttons.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Buttons.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AppLocal\Links.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Links.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AppLocal\Tags.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Tags.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AppLocal\Titles.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Titles.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AppLocal\Validators.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Validators.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AppShared\MailMessages.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>MailMessages.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AppShared\Messages.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Messages.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AppShared\Strings.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AppShared\Titles2.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Titles2.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\AppShared\Links2.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Links2.Designer.vb</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="_MasterPages\DefaultPublic.Master" />
+    <Content Include="_MasterPages\Form.Master" />
+    <Content Include="_MasterPages\Default.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CVUDES_Professor_Class\CVUDES_Professor_Class.vbproj">
+      <Project>{B24F8156-A9F7-4EA7-98FB-8D366C4BD6F2}</Project>
+      <Name>CVUDES_Professor_Class</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3153</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

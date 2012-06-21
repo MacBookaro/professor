@@ -1,0 +1,48 @@
+﻿.ModalBackground
+{
+	background-color: #000000;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.ModalPopup
+{
+	background-color: #FFFFFF;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #BFBFBF;
+	padding: 3px;
+	text-align:left;	
+}
+
+.TableConfirm
+{
+	border-collapse: collapse;
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	border-bottom: solid 1px black;
+	background-color: White;
+}
+
+/* CAMBIAR AQUI */
+.WindowHeaderBar
+{
+	background: url(/_Resources/Templates/Blue/Tabs/TabM.png);
+	border: 0;
+	color: #505050;						/* GRIS #505050 BLANCO #FFFFFF */
+	height: 16px;
+	padding: 4px;
+	margin-bottom: 0;
+	border-left: solid 1px #C8C8C8;		/* NEGRO #000000 GRIS #C8C8C8 */
+	border-right: solid 1px #C8C8C8;	/* NEGRO #000000 GRIS #C8C8C8 */
+}
+
+.WindowContent
+{
+	height: 146px;
+	border: 0;
+	border-bottom: solid 1px #C8C8C8;
+	border-left: solid 1px #C8C8C8;
+	border-right: solid 1px #C8C8C8;
+}
+
