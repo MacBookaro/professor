@@ -65,7 +65,7 @@ Namespace Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to Crear Docente.
+        '''  Looks up a localized string similar to &lt;img src=/_Resources/Icons/Create.gif alt=&apos;Crear Docente&apos;&gt;Crear Docente.
         '''</summary>
         Friend Shared ReadOnly Property lnkProfessorCreate() As String
             Get
@@ -74,7 +74,7 @@ Namespace Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to Buscar Docente.
+        '''  Looks up a localized string similar to &lt;img src=/_Resources/Icons/Search.gif alt=&apos;Buscar Profesor temáticos&apos;&gt;Buscar Profesor.
         '''</summary>
         Friend Shared ReadOnly Property lnkProfessorSearch() As String
             Get

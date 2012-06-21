@@ -84,4 +84,31 @@ Partial Public Class _Default2
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents FilterOptions As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''tagFilterOptions control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tagFilterOptions As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''tagStatus control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tagStatus As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''dropStatus control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents dropStatus As Global.Telerik.Web.UI.RadComboBox
 End Class

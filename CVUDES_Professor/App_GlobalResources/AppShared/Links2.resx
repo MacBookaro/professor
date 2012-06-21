@@ -118,9 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lnkProfessorCreate" xml:space="preserve">
-    <value>Crear Docente</value>
+    <value>&lt;img src=/_Resources/Icons/Create.gif alt='Crear Docente'&gt;Crear Docente</value>
   </data>
   <data name="lnkProfessorSearch" xml:space="preserve">
-    <value>Buscar Docente</value>
+    <value>&lt;img src=/_Resources/Icons/Search.gif alt='Buscar Profesor temáticos'&gt;Buscar Profesor</value>
   </data>
 </root>

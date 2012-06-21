@@ -200,6 +200,12 @@
   <data name="tagExpeditionDate" xml:space="preserve">
     <value>Fecha de Expedici&amp;oacute;n:</value>
   </data>
+  <data name="tagFilterOptions" xml:space="preserve">
+    <value>Opciones de filtrado</value>
+  </data>
+  <data name="tagFilterSelected" xml:space="preserve">
+    <value>Filtro Seleccioando</value>
+  </data>
   <data name="tagFirstName" xml:space="preserve">
     <value>Primer Nombre:</value>
   </data>
@@ -307,6 +313,9 @@
   </data>
   <data name="tagSingIn" xml:space="preserve">
     <value>Inicie Sesión</value>
+  </data>
+  <data name="tagStatus" xml:space="preserve">
+    <value>Estado:</value>
   </data>
   <data name="tagTittleConfirmation" xml:space="preserve">
     <value>Confirmación del Registro</value>

@@ -268,6 +268,24 @@ Namespace Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Opciones de filtrado.
+        '''</summary>
+        Friend Shared ReadOnly Property tagFilterOptions() As String
+            Get
+                Return ResourceManager.GetString("tagFilterOptions", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Filtro Seleccioando.
+        '''</summary>
+        Friend Shared ReadOnly Property tagFilterSelected() As String
+            Get
+                Return ResourceManager.GetString("tagFilterSelected", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Primer Nombre:.
         '''</summary>
         Friend Shared ReadOnly Property tagFirstName() As String
@@ -581,6 +599,15 @@ Namespace Resources
         Friend Shared ReadOnly Property tagSingIn() As String
             Get
                 Return ResourceManager.GetString("tagSingIn", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Estado:.
+        '''</summary>
+        Friend Shared ReadOnly Property tagStatus() As String
+            Get
+                Return ResourceManager.GetString("tagStatus", resourceCulture)
             End Get
         End Property
         

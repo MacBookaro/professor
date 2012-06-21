@@ -28,7 +28,12 @@
                 <img alt="" src="/_Resources/Images/Separator.gif" />
             </li>
             <li>
-                <eb:ExpandingLinkButton ID="lbtnFilter" runat="server" ControlToToggle="FilterOptions" ExpandedText="<%$ Resources: Buttons, lbtnFilter_ExpandedText %>" ContractedText="<%$ Resources: Buttons, lbtnFilter_ContractedText %>" TextAlt1="<%$ Resources: Buttons, lbtnFilter_TextAlt1 %>" TextAlt2="<%$ Resources: Buttons, lbtnFilter_TextAlt2 %>" Expanded="False"></eb:ExpandingLinkButton>
+                <%--<eb:expandinglinkbutton ID="lbtnFilter" runat="server" 
+                    ControlToToggle="FilterOptions" 
+                    ExpandedText="<%$ Resources: Buttons, lbtnFilter_ExpandedText %>" 
+                    ContractedText="<%$ Resources: Buttons, lbtnFilter_ContractedText %>" 
+                    TextAlt1="<%$ Resources: Buttons, lbtnFilter_TextAlt1 %>" 
+                    TextAlt2="<%$ Resources: Buttons, lbtnFilter_TextAlt2 %>" Expanded="False"></eb:expandinglinkbutton>--%>
             </li>
         </ul>
     </div>
@@ -44,6 +49,40 @@
         </div>
     </div>
     <asp:Panel ID="FilterOptions" runat="server" Width="100%">
+        <div class="BoxUnderline">
+            <table class="FilterChoices" cellspacing="0" cellpadding="0" width="100%" border="0">
+                <tr>
+                    <th>
+                        <asp:Label ID="tagFilterOptions" runat="server" Text="<%$ Resources: Tags, tagFilterOptions %>" Font-Bold="true"></asp:Label>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <table class="FilterChoicesContent" cellspacing="0" cellpadding="0" width="100%" border="0">
+                            <tr>
+                                <th>
+                                    <asp:Label ID="tagStatus" runat="server" Text="<%$ Resources: Tags, tagStatus %>"></asp:Label>
+                                </th>
+                                <td>
+                                    <telerik:RadComboBox ID="dropStatus" runat="server" Width="280px" MarkFirstMatch="false" MaxHeight="104">
+                                    </telerik:RadComboBox>
+                                </td>
+                                <th>
+                                    &nbsp;
+                                </th>
+                                <td>
+                                    &nbsp;
+                                </td>
+                                <th>
+                                    &nbsp;
+                                </th>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
         <div id="TabStrip" class="TabStripHeader">
             <%--<uc:GridTabStrip ID="GridTabStrip1" runat="server" />--%>
         </div>

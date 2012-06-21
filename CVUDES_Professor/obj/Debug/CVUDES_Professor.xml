@@ -6,183 +6,7 @@ CVUDES_Professor
 </name>
 </assembly>
 <members>
-<member name="F:CVUDES_Professor.CoodinatorDefaultpage.lblPageTitle">
-	<summary>
-lblPageTitle control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.lblPageSubTitle">
-	<summary>
-lblPageSubTitle control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.MyInfo_View1">
-	<summary>
-MyInfo_View1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.Label1">
-	<summary>
-Label1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.Label2">
-	<summary>
-Label2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.lnkProfessor">
-	<summary>
-lnkProfessor control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.Label3">
-	<summary>
-Label3 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.lnkLoadingProfessor">
-	<summary>
-lnkLoadingProfessor control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.lnkLoadingInfoAdmin">
-	<summary>
-lnkLoadingInfoAdmin control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.tagReports">
-	<summary>
-tagReports control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.lnkReports">
-	<summary>
-lnkReports control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.tagCommonOptions2">
-	<summary>
-tagCommonOptions2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.tagHelp">
-	<summary>
-tagHelp control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.Literal1">
-	<summary>
-Literal1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor._Default2.lblPageTitle">
-	<summary>
-lblPageTitle control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor._Default2.lblPageSubTitle">
-	<summary>
-lblPageSubTitle control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor._Default2.lnkHome">
-	<summary>
-lnkHome control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor._Default2.lnkCreate">
-	<summary>
-lnkCreate control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor._Default2.lnkSearch">
-	<summary>
-lnkSearch control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor._Default2.Label1">
-	<summary>
-Label1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor._Default2.radFilterOptions">
-	<summary>
-radFilterOptions control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:CVUDES_Professor._Default2.FilterOptions">
-	<summary>
-FilterOptions control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="P:CVUDES_Professor.Resources.Tags.ResourceManager">
+<member name="P:CVUDES_Professor.Resources.Tags.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -494,6 +318,118 @@ To modify move field declaration from designer file to code-behind file.
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
+</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.lblPageTitle">
+	<summary>
+lblPageTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.lblPageSubTitle">
+	<summary>
+lblPageSubTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.MyInfo_View1">
+	<summary>
+MyInfo_View1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.lnkProfessor">
+	<summary>
+lnkProfessor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.lnkLoadingProfessor">
+	<summary>
+lnkLoadingProfessor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.lnkLoadingInfoAdmin">
+	<summary>
+lnkLoadingInfoAdmin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.tagReports">
+	<summary>
+tagReports control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.lnkReports">
+	<summary>
+lnkReports control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.tagCommonOptions2">
+	<summary>
+tagCommonOptions2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.tagHelp">
+	<summary>
+tagHelp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor.CoodinatorDefaultpage.Literal1">
+	<summary>
+Literal1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:CVUDES_Professor.CandidateDefaultpage.lblPageTitle">
 	<summary>
 lblPageTitle control.
@@ -4305,6 +4241,70 @@ btnSignIn control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:CVUDES_Professor._Default2.lblPageTitle">
+	<summary>
+lblPageTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor._Default2.lblPageSubTitle">
+	<summary>
+lblPageSubTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor._Default2.lnkHome">
+	<summary>
+lnkHome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor._Default2.lnkCreate">
+	<summary>
+lnkCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor._Default2.lnkSearch">
+	<summary>
+lnkSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor._Default2.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor._Default2.radFilterOptions">
+	<summary>
+radFilterOptions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CVUDES_Professor._Default2.FilterOptions">
+	<summary>
+FilterOptions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="P:CVUDES_Professor.Resources.Links.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
@@ -4509,6 +4509,10 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="P:CVUDES_Professor.Resources.Links.lnkGroupsSearch">
 	<summary>
   Looks up a localized string similar to &lt;img src=/_Resources/Icons/Search.gif alt='Buscar grupos'&gt;Buscar grupos.
+</summary>
+</member><member name="P:CVUDES_Professor.Resources.Links.lnkHome">
+	<summary>
+  Looks up a localized string similar to &lt;img src=/_Resources/Icons/Home.gif alt='Ir al inicio'&gt;Ir al inicio.
 </summary>
 </member><member name="P:CVUDES_Professor.Resources.Links.lnkLearningScheduleDays">
 	<summary>

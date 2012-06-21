@@ -77,6 +77,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Import Include="Axezz" />
+    <Import Include="Axezz.WebGadgets" />
+    <Import Include="Axezz.WebGadgets.Design" />
+    <Import Include="Axezz.WebGadgets.Internal" />
+    <Import Include="MetaBuilders" />
+    <Import Include="MetaBuilders.WebControls" />
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
     <Import Include="System.Collections" />
